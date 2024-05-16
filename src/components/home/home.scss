@@ -1,9 +1,18 @@
 .home-section {
-  width: 100%;
-  height: 100vh; /* Altura de la sección */
-  background-image: url('../../../public/welome.svg');
+  width: auto;
+  height: 850px; /* Altura de la sección */
+  background-image: url('../../../public/welcome.svg');
   background-size: cover; /* Hace que la imagen cubra todo el área */
   background-position: center; /* Centra la imagen */
+  padding: 5% 15% 5%  15%  ;
+  overflow: hidden;
+}
+.home-section-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
 }
 
 h1 {

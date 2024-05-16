@@ -1,0 +1,11 @@
+.welcome-year {
+  width: 166px;
+  height: 100px;
+  background-image: url("../../../public/welcome-date.svg");
+  background-size: cover; /* Hace que la imagen cubra todo el área */
+  background-position: center;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: 20%;
+}
