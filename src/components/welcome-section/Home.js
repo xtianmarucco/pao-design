@@ -6,7 +6,9 @@ const Home = () => {
     return (
         <div className="home-section">
             <div className="home-section-container">
-            <Image className="welcome-title" src="/welcome-title.svg"  alt="welcome title"/>
+            <Image className="logo-pao-design" src="/logo-pao.svg"  alt="welcome logo"/>
+
+            <Image id="welcome-title"  className="welcome-title" src="/welcome-title.svg"  alt="welcome title"/>
             <Image className="welcome-tag" src="/welcome-tag.svg"  alt="welcome tag"/>
             </div>
             <WelcomeYear/>

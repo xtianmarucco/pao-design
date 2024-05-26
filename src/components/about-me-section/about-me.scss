@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+h1{
+     font-family: "Familjen Grotesk", sans-serif;
+}
+.about-me-section {
+  width: auto;
+  height: fit-content;
+  background-image: url("../../../public/about-me.svg");
+  background-size: cover; /* Hace que la imagen cubra todo el área */
+  background-position: center; /* Centra la imagen */
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.parent > * {
+  flex: 1 1 45%; /* Ajusta los elementos al 45% del ancho del contenedor */
+  margin: 10px;
+}
+
+.parent .about-photo,
+.parent.about-personal {
+  max-width: 100%;
+}
+
+.parent .textbox-container{
+  max-width: 700px;
+  position: relative;
+  left: 40%;
+  top: -70px;
+  height: fit-content;
+}
+
+
+.image-container {
+  width: 100%;
+  height: auto;
+
+  .about-photo {
+    max-width: 500px;
+    position: relative;
+    bottom: -20%;
+  }
+  .about-personal {
+    width: 500px;
+  }
+}
+.about-me-title {
+  color: #fff;
+  font-size: 48px;
+
+}
+
+.about-me-icon {
+  height: 71px;
+  width: 72px;
+  margin-left: 10%;
+}
+@media (max-width: 768px) {
+  .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parent > * {
+    flex: 1 1 100%; /* Ajusta los elementos al 100% del ancho del contenedor en pantallas pequeñas */
+    margin: 10px 0;
+  }
+}
+  
+
+

@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './section-title.scss';
 
-const SectionTitle = ({ title, classNameImg, imgSrc, classNameTitle, width, height, borderWidth, borderColor, borderRadius, cornerSize, backgroundColor }) => {
+const SectionTitle = ({ title, classNameImg, imgSrc, classNameTitle, maxWidth, width, height, borderWidth, borderColor, borderRadius, cornerSize, backgroundColor }) => {
   const containerStyle = {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'flex-start', // Alinea los elementos al principio del contenedor
-    position: 'relative', // Establece posición relativa para que los círculos se posicionen correctamente
+    justifyContent: 'space-between',
+    position: 'relative',
+    maxWidth: maxWidth,
     width: width,
     height: height,
     border: `${borderWidth}px solid ${borderColor}`,
@@ -16,11 +18,13 @@ const SectionTitle = ({ title, classNameImg, imgSrc, classNameTitle, width, heig
   };
 
   const imageStyle = {
-    marginLeft: '10%', // Margen izquierdo del 10%
+    marginRight: 'auto',
+
   };
 
   const titleStyle = {
-    marginLeft: '15%', // Margen izquierdo del 15%
+    marginRight: 'auto',
+
   };
 
   const cornerStyle = {
@@ -34,10 +38,10 @@ const SectionTitle = ({ title, classNameImg, imgSrc, classNameTitle, width, heig
 
   return (
     <div style={containerStyle}>
-      <div style={{ ...cornerStyle, top: -borderWidth, left: -borderWidth }}></div>
-      <div style={{ ...cornerStyle, top: -borderWidth, right: -borderWidth }}></div>
-      <div style={{ ...cornerStyle, bottom: -borderWidth, left: -borderWidth }}></div>
-      <div style={{ ...cornerStyle, bottom: -borderWidth, right: -borderWidth }}></div>
+      <div style={{ ...cornerStyle, top: `-10px`, left: `10px` }}></div>
+      <div style={{ ...cornerStyle, top: `-10px`, right: `10px` }}></div>
+      <div style={{ ...cornerStyle, bottom: `-10px`, left: `10px` }}></div>
+      <div style={{ ...cornerStyle, bottom: `-10px`, right: `14px` }}></div>
       <img className={classNameImg} src={imgSrc} alt="icon" style={imageStyle} />
       <h1 className={classNameTitle} style={titleStyle}>{title}</h1>
     </div>

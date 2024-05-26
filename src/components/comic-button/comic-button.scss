@@ -1,0 +1,52 @@
+.comic-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFCFC;
+  border: 2px solid black;
+  border-radius: 20px 20px 0 20px;
+  max-width: 260px;
+  height: 60px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .button-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .button-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; // Adjusts the position of the tail
+    left: 20px; // Adjusts the horizontal position of the tail
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #FFFCFC;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -5px;
+    box-shadow: -2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+}

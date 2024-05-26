@@ -1,0 +1,47 @@
+.contact-section {
+    width: auto;
+    height: fit-content; 
+    background-image: url("../../../public/background-contact-section.svg");
+    background-size: cover; 
+    background-position: center; 
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .contact-section-container {
+    padding: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .item {
+   
+  }
+  
+  #item1, #item2, #item3 {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: -50px;
+
+  }
+  
+  #item4 {
+    max-height: 840px;
+    flex: 1 1 calc(50% - 10px);
+    background-image: url("../../../public/contact-phone-bkg.svg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    max-width:490px ;
+  }
+  
+  @media (min-width: 768px) {
+
+
+  }

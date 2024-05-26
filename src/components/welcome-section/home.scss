@@ -1,0 +1,37 @@
+.home-section {
+  width: auto;
+  height: 100vh;
+  background-image: url('../../../public/welcome.svg');
+  background-size: cover; /* Hace que la imagen cubra todo el área */
+  background-position: center; /* Centra la imagen */
+  padding: 0;
+  margin: 0;
+
+}
+.home-section-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.image-container {
+  .logo-pao-design {
+    max-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .welcome-title {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .welcome-tag {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+  }
+}
+
+h1 {
+  font-size: large;
+}
