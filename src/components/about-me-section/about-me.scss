@@ -37,7 +37,7 @@ h1{
   max-width: 100%;
 }
 
-.parent .textbox-container{
+ .textbox-container{
   max-width: 700px;
   position: relative;
   left: 40%;
@@ -70,17 +70,111 @@ h1{
   width: 72px;
   margin-left: 10%;
 }
-@media (max-width: 768px) {
+
+  
+
+@media (max-width: 600px) {
+  .about-me-section{
+    width: auto;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 5%;
+  }
+
   .parent {
     flex-direction: column;
     align-items: center;
+    padding: 0%;
+
+  }
+
+  #about-me-section-title{
+    height: 45px;
+  }
+
+  .image-container .about-photo {
+    max-width: 500px;
+    position: relative;
+    bottom: unset; 
+}
+
+ .parent .textbox-container {
+  max-width: 600px;
+  position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
+  left: 0;
+  top: 0;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .about-me-section{
+    width: auto;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 5%;
+  }
+  .parent {
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+
+  }
+  .parent .textbox-container {
+    max-width: 600px;
+    position: relative;
+    height: -moz-fit-content;
+    height: fit-content;
+    left: 0;
+    top: 0;
   }
 
   .parent > * {
     flex: 1 1 100%; /* Ajusta los elementos al 100% del ancho del contenedor en pantallas pequeñas */
     margin: 10px 0;
+    padding: 0%;
+
   }
 }
-  
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .parent{
+    padding: 0%;
+  }
+  .parent .textbox-container {
+    max-width: 600px;
+    position: relative;
+    height: -moz-fit-content;
+    height: fit-content;
+    left: 0;
+    top: 30px;
+  }
+   
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .parent .textbox-container {
+    margin-top: 10%;
+    max-width: 600px;
+    position: relative;
+    height: -moz-fit-content;
+    height: fit-content;
+    left: 0;
+    top: 0;
+  }
+ 
+}
 
 

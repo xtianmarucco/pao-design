@@ -9,7 +9,8 @@ const AboutMe = () => {
   return (
     <div className="about-me-section">
       <SectionTitle
-        title="About pao"
+      id="about-me-section-title"
+        title="About me"
         classNameImg="about-me-icon"
         imgSrc="/about-me-icon.svg"
         classNameTitle="about-me-title"
