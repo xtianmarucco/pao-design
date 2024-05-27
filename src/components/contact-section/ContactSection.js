@@ -4,13 +4,14 @@ import SectionTitle from "../section-title/SectionTitle";
 import TextBox from "../text-box/TextBox";
 import content from "../../data/content.json";
 import ContactStickyNote from "../contact-sticky-note/ContactStickyNote";
-import MobilePhone from "../mobile-phone/MobilePhone";
+import PhoneContainer from "../phone-container/PhoneContainer";
 // import SynopticChart from '../synoptic-chart/SynopticChart';
 
 const ContactSection = () => {
   return (
     <div className="contact-section">
       <div className="contact-section-container">
+        <br></br>
         <div className="item" id="item1">
           <SectionTitle
             title="Contact"
@@ -26,16 +27,21 @@ const ContactSection = () => {
             backgroundColor="#FFDE2E"
             maxWidth="600PX"
           />
+          <br></br>
           <TextBox text={content.contactText} />
+          <br></br>
           <ContactStickyNote
             imageSrc="/pin-contact.svg"
             classNamePin="pin-img"
             text={content.stickyNoteText}
-            footerText={content.contactText}
           />
         </div>
         <div className="item" id="item4">
-          <MobilePhone/>
+          <PhoneContainer>
+        
+          </PhoneContainer>
+        
+         
         </div>
         {/* <div className="item" id="item2">
         </div>

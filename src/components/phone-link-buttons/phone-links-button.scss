@@ -1,0 +1,42 @@
+.phone-link-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #FFFCFC;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 20px;
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    margin-left: auto;
+    margin-right: auto;
+  
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.2);
+    }
+  
+    &:active {
+      transform: translateY(1px);
+      box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2);
+    }
+  
+    .button-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  
+    .button-text {
+      font-size: 16px;
+      font-weight: bold;
+      color: black;
+    }
+  
+
+  }
+  

@@ -7,12 +7,13 @@ h1{
 .about-me-section {
   width: auto;
   height: fit-content;
-  background-image: url("../../../public/about-me.svg");
+  // background-image: url("../../../public/about-me.svg");
   background-size: cover; /* Hace que la imagen cubra todo el área */
   background-position: center; /* Centra la imagen */
   padding: 0;
   margin: 0;
   overflow: hidden;
+  padding: 10%;
 }
 
 .parent {

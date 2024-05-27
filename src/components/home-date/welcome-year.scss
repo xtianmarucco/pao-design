@@ -1,6 +1,6 @@
 .welcome-year {
-  width: 166px;
-  height: 100px;
+  width: 200px;
+  height: 120px;
   background-image: url("../../../public/welcome-date.svg");
   background-size: cover; /* Hace que la imagen cubra todo el área */
   background-position: center;
@@ -8,4 +8,52 @@
   flex-direction: column-reverse;
   position: relative;
   bottom: 20%;
+  left: 5%;
+}
+
+.welcome-year-title {
+  font-size: 48px;
+  color: black;
+  padding-left: 19px;
+  position: absolute;
+  top: 23px;
+}
+
+@media (max-width: 600px) {
+  .welcome-year {
+    width: 120px;
+    height: 72px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+  }
+   .welcome-year-title {
+    font-size: 30px;
+    color: black;
+    padding-left: 19px;
+    position: absolute;
+    top: 12px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .welcome-year {
+    width: 120px;
+    height: 72px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+  }
+   .welcome-year-title {
+    font-size: 30px;
+    color: black;
+    padding-left: 19px;
+    position: absolute;
+    top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
 }
