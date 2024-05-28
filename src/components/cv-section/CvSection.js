@@ -13,17 +13,12 @@ const CvSection = () => {
         <div className="item yellow small">
           <SectionTitle
             title="Curriculum Vitae"
-            classNameImg="about-me-icon"
             imgSrc="/cv-icon.svg"
-            classNameTitle="cv-title"
-            width="auto"
-            height="100px"
             borderWidth={3}
             borderColor="black"
             borderRadius="35px"
             cornerSize="18px"
             backgroundColor="#FC77FF"
-            maxWidth="600PX"
           />
         </div>
         <div className="item yellow large">

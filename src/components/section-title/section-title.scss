@@ -1,3 +1,74 @@
-h1{
-    font-family: "Familjen Grotesk", sans-serif;
+.section-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border: 3px solid black;
+    max-width: 600px; 
+    height: 100px; 
+   
+
+    .title-section-icon{
+      height: 60px;
+      margin-left: 10%;
+    }
+    .title-section-text{
+      font-size: 40px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .corner {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border: 3px solid black;
+      border-radius: 50%;
+      background-color: white;
+    }
+  
+    .top-left {
+      top: -10px;
+      left: 10px;
+    }
+  
+    .top-right {
+      top: -10px;
+      right: 10px;
+    }
+  
+    .bottom-left {
+      bottom: -10px;
+      left: 10px;
+    }
+  
+    .bottom-right {
+      bottom: -10px;
+      right: 14px;
+    }
+
+ 
+  
 }
+
+@media (max-width: 600px) {
+  .section-title-container {
+    height: 70px;
+
+    .title-section-icon{
+      height: 30px;
+      margin-left: 15%;
+    }
+    .title-section-text{
+      font-size: 20px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+ 
+}
+
+
+
+
+

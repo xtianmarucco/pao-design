@@ -4,7 +4,7 @@ import Image from '../image/Image';
 import WelcomeYear from '../home-date/WelcomeYear';
 const Home = () => {
     return (
-        <div className="home-section">
+        <div className="home-section" id="home-section">
             <div className="home-section-container">
             <Image className="logo-pao-design" src="/logo-pao.svg"  alt="welcome logo"/>
 

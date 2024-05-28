@@ -7,21 +7,18 @@ import Image from "../image/Image";
 
 const AboutMe = () => {
   return (
-    <div className="about-me-section">
+    <div id="about-me-section" className="about-me-section">
       <SectionTitle
-      id="about-me-section-title"
         title="About me"
         classNameImg="about-me-icon"
         imgSrc="/about-me-icon.svg"
         classNameTitle="about-me-title"
-        width="auto"
-        height="100px"
         borderWidth={3}
         borderColor="black"
         borderRadius="35px"
         cornerSize="16px"
         backgroundColor="#4ACFFF"
-        maxWidth="600px"
+     
       />
     
       <div className="parent">

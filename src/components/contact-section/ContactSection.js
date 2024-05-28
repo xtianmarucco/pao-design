@@ -15,17 +15,12 @@ const ContactSection = () => {
         <div className="item" id="item1">
           <SectionTitle
             title="Contact"
-            classNameImg="about-me-icon"
             imgSrc="/contact-icon.svg"
-            classNameTitle="about-me-title"
-            width="auto"
-            height="100px"
             borderWidth={3}
             borderColor="black"
             borderRadius="35px"
             cornerSize="16px"
             backgroundColor="#FFDE2E"
-            maxWidth="600PX"
           />
           <br></br>
           <TextBox text={content.contactText} />

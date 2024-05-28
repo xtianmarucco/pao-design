@@ -2,48 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './section-title.scss';
 
-const SectionTitle = ({ title, classNameImg, imgSrc, classNameTitle, maxWidth, width, height, borderWidth, borderColor, borderRadius, cornerSize, backgroundColor }) => {
-  const containerStyle = {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    position: 'relative',
-    maxWidth: maxWidth,
-    width: width,
-    height: height,
-    border: `${borderWidth}px solid ${borderColor}`,
-    borderRadius: borderRadius,
-    backgroundColor: backgroundColor,
-  };
-
-  const imageStyle = {
-    marginRight: 'auto',
-
-  };
-
-  const titleStyle = {
-    marginRight: 'auto',
-
-  };
-
-  const cornerStyle = {
-    position: 'absolute',
-    width: cornerSize,
-    height: cornerSize,
-    border: `${borderWidth}px solid ${borderColor}`,
-    borderRadius: '50%',
-    backgroundColor: 'white',
-  };
-
+const SectionTitle = ({ title, imgSrc, borderWidth, borderColor, borderRadius, cornerSize, backgroundColor }) => {
   return (
-    <div style={containerStyle}>
-      <div style={{ ...cornerStyle, top: `-10px`, left: `10px` }}></div>
-      <div style={{ ...cornerStyle, top: `-10px`, right: `10px` }}></div>
-      <div style={{ ...cornerStyle, bottom: `-10px`, left: `10px` }}></div>
-      <div style={{ ...cornerStyle, bottom: `-10px`, right: `14px` }}></div>
-      <img className={classNameImg} src={imgSrc} alt="icon" style={imageStyle} />
-      <h1 className={classNameTitle} style={titleStyle}>{title}</h1>
+    <div
+      className="section-title-container"
+      style={{
+        borderWidth: `${borderWidth}px`,
+        borderColor: borderColor,
+        borderRadius: borderRadius,
+        backgroundColor: backgroundColor,
+        cornerSize: cornerSize,
+      }}
+    >
+      <div className="corner top-left"></div>
+      <div className="corner top-right"></div>
+      <div className="corner bottom-left"></div>
+      <div className="corner bottom-right"></div>
+      <img className="title-section-icon" src={imgSrc} alt="icon" />
+      <h1 className="title-section-text">{title}</h1>
     </div>
   );
 };
@@ -53,8 +29,6 @@ SectionTitle.propTypes = {
   classNameImg: PropTypes.string,
   imgSrc: PropTypes.string,
   classNameTitle: PropTypes.string,
-  width: PropTypes.string.isRequired,
-  height: PropTypes.string.isRequired,
   borderWidth: PropTypes.number.isRequired,
   borderColor: PropTypes.string.isRequired,
   borderRadius: PropTypes.string.isRequired,

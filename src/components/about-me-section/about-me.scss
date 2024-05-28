@@ -4,7 +4,7 @@
 h1{
      font-family: "Familjen Grotesk", sans-serif;
 }
-.about-me-section {
+#about-me-section {
   width: auto;
   height: fit-content;
   // background-image: url("../../../public/about-me.svg");
@@ -14,7 +14,7 @@ h1{
   margin: 0;
   overflow: hidden;
   padding: 10%;
-}
+
 
 .parent {
   display: flex;
@@ -178,3 +178,4 @@ h1{
 }
 
 
+}
