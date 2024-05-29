@@ -1,4 +1,4 @@
-import "./welcome-year.scss";
+import "./welcome-year.css";
 
 const WelcomeYear = () => {
   return (

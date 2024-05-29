@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './section-title.scss';
+import './section-title.css';
 
 const SectionTitle = ({ title, imgSrc, borderWidth, borderColor, borderRadius, cornerSize, backgroundColor }) => {
   return (

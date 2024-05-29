@@ -1,5 +1,5 @@
 import React from 'react';
-import './sidebar-navigation.scss';
+import './sidebar-navigation.css';
 
 
 

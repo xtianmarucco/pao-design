@@ -38,8 +38,8 @@
   &::after {
     content: '';
     position: absolute;
-    bottom: -10px; // Adjusts the position of the tail
-    left: 20px; // Adjusts the horizontal position of the tail
+    bottom: -10px;
+    left: 20px; 
     width: 0;
     height: 0;
     border: 10px solid transparent;

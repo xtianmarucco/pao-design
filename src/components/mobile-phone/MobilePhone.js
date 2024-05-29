@@ -1,5 +1,5 @@
 import React from 'react';
-import './mobile-phone.scss'; 
+import './mobile-phone.css'; 
 import PhoneButton from '../phone-button/PhoneButton';
 import PhoneLinkButton from '../phone-link-buttons/PhoneLinkButton';
 
