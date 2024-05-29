@@ -1,7 +1,7 @@
 .welcome-year {
   width: 200px;
   height: 120px;
-  background-image: url("../../../public/welcome-date.svg");
+  background-image: url("/welcome-date.svg");
   background-size: cover; /* Hace que la imagen cubra todo el área */
   background-position: center;
   display: flex;
