@@ -12,8 +12,9 @@ function App() {
       <SidebarNavigation/>
      <Home></Home>
      <AboutMe></AboutMe>
-     <ContactSection></ContactSection>
      <CvSection></CvSection>
+     <ContactSection></ContactSection>
+    
     </div>
   );
 }

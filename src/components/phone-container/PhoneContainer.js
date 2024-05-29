@@ -1,5 +1,5 @@
 import React from 'react';
-import './phone-container.scss';
+import './phone-container.css';
 import MobilePhone from "../mobile-phone/MobilePhone";
 
 
