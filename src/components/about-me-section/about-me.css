@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap");
+
+h1 {
+  font-family: "Familjen Grotesk", sans-serif;
+}
+#about-me-section{
+  height: 100vh;
+  padding: 5%;
+}
+.about-me-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.2fr 1.8fr 1.9fr 0.1fr;
+  grid-template-rows: 0.6fr 1.6fr 1.3fr;
+  gap: 0em 0em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title-section-container title-section-container . ."
+    ". about-photo-container about-personal-container ."
+    ". about-personal-mobile-container text-box-container .";
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title-section-container"
+      "about-photo-container"
+      "text-box-container"
+      "about-personal-mobile-container";
+
+    .about-photo-container, .about-personal-container, .text-box-container {
+      position: relative;
+      top: 0;
+    }
+
+    .about-personal-mobile-container {
+      display: block;
+    }
+
+    .about-personal-container {
+      display: none;
+    }
+  }
+
+  .about-photo-container{
+    position:relative;
+    top: 25%;
+  }
+
+  .text-box-container{
+    position:relative;
+    top: -15%;
+  }
+
+  @media (max-width: 480px) {
+    padding: 5%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title-section-container"
+      "about-photo-container"
+      "text-box-container"
+      "about-personal-mobile-container";
+
+    .about-photo-container, .about-personal-container, .text-box-container {
+      position: relative;
+      top: 0;
+    }
+
+    .about-personal-mobile-container {
+      display: block;
+    }
+
+    .about-personal-container {
+      display: none;
+    }
+  }
+}
+
+.title-section-container {
+  grid-area: title-section-container;
+}
+
+.about-photo-container {
+  grid-area: about-photo-container;
+  position: relative;
+ 
+  height: fit-content;
+}
+
+.about-personal-container {
+  grid-area: about-personal-container;
+}
+
+.about-personal-mobile-container {
+  grid-area: about-personal-mobile-container;
+  display: none;
+}
+
+.text-box-container {
+  grid-area: text-box-container;
+  position: relative;
+}
