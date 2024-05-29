@@ -10,3 +10,9 @@
     font-size: 20px;
     width: 100%; /* Ajusta el ancho al 100% para que sea responsive */
   }
+  @media (max-width: 480px) {
+    .textbox-content {
+      font-size: 14px;
+      width: 100%; /* Ajusta el ancho al 100% para que sea responsive */
+    }
+  }

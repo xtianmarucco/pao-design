@@ -6,6 +6,8 @@ h1 {
 #about-me-section{
   height: 100vh;
   padding: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .about-me-container {
   height: 100vh;
@@ -52,7 +54,7 @@ h1 {
     top: -15%;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     padding: 5%;
     grid-template-rows: auto;
     grid-template-areas:

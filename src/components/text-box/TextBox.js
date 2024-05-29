@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './text-box.scss'; 
+import './text-box.css'; 
 
 const TextBox = ({ text }) => {
     return (

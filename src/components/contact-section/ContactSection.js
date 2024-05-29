@@ -1,5 +1,5 @@
 import React from "react";
-import "./contact-section.scss";
+import "./contact-section.css";
 import SectionTitle from "../section-title/SectionTitle";
 import TextBox from "../text-box/TextBox";
 import content from "../../data/content.json";
@@ -9,11 +9,10 @@ import PhoneContainer from "../phone-container/PhoneContainer";
 
 const ContactSection = () => {
   return (
-    <div className="contact-section">
-      <div className="contact-section-container">
-        <br></br>
-        <div className="item" id="item1">
-          <SectionTitle
+    <div id="contact-section">
+    <div class="contact-section-container">
+    <div class="contact-title-section-container">
+    <SectionTitle
             title="Contact"
             imgSrc="/contact-icon.svg"
             borderWidth={3}
@@ -22,31 +21,25 @@ const ContactSection = () => {
             cornerSize="16px"
             backgroundColor="#FFDE2E"
           />
-          <br></br>
-          <TextBox text={content.contactText} />
-          <br></br>
-          <ContactStickyNote
+    </div>
+    <div class="contact-text-box-container">
+    <TextBox text={content.contactText} />
+    </div>
+    <div class="contact-phone-container">
+    <PhoneContainer>
+        
+    </PhoneContainer>
+    </div>
+    <div class="contact-sticker-container">
+    <ContactStickyNote
             imageSrc="/pin-contact.svg"
             classNamePin="pin-img"
             text={content.stickyNoteText}
           />
-        </div>
-        <div className="item" id="item4">
-          <PhoneContainer>
-        
-          </PhoneContainer>
-        
-         
-        </div>
-        {/* <div className="item" id="item2">
-        </div>
-        <div className="item" id="item3">
-        </div> */}
-      
-      </div>
-
-      {/* <SynopticChart></SynopticChart> */}
     </div>
+  </div>
+  </div>
+   
   );
 };
 

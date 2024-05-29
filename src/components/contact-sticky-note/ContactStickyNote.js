@@ -1,5 +1,5 @@
 import React from 'react';
-import './contact-sticky-note.scss'; // Importa los estilos CSS del componente
+import './contact-sticky-note.css'; // Importa los estilos CSS del componente
 
 const ContactStickyNote = ({ imageSrc, text, footerText, classNamePin }) => {
   return (

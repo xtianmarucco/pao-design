@@ -32,6 +32,12 @@
     font-style: italic;
     font-family: "Handlee", cursive;
     color: #0F43F8;
+
+    @media (max-width: 600px) {
+
+      font-size: 16px;
+    
+    }
   }
   
   .footer-container {
@@ -41,4 +47,6 @@
     font-family: "Handlee", cursive;
 
   }
+
+ 
   
