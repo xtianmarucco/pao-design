@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Awesome Project",
+      "buttonColor": "#4CAF50",
+      "description": "This is a detailed description of the awesome project. It explains all the features and functionalities of the project.",
+      "images": [
+        { "url": "/path/to/image1.jpg", "backgroundColor": "#eee" },
+        { "url": "/path/to/image2.jpg", "backgroundColor": "#ddd" },
+        { "url": "/path/to/image3.jpg", "backgroundColor": "#ccc" }
+      ]
+    },
+    {
+      "title": "Cool Project",
+      "buttonColor": "#FF5722",
+      "description": "This is a detailed description of the cool project. It highlights the main features and unique aspects.",
+      "images": [
+        { "url": "/path/to/image4.jpg", "backgroundColor": "#fdd" },
+        { "url": "/path/to/image5.jpg", "backgroundColor": "#dfd" },
+        { "url": "/path/to/image6.jpg", "backgroundColor": "#ddf" }
+      ]
+    },
+    {
+      "title": "Innovative Project",
+      "buttonColor": "#3F51B5",
+      "description": "This project showcases innovative solutions and cutting-edge technologies.",
+      "images": [
+        { "url": "/path/to/image7.jpg", "backgroundColor": "#ccc" },
+        { "url": "/path/to/image8.jpg", "backgroundColor": "#bbb" },
+        { "url": "/path/to/image9.jpg", "backgroundColor": "#aaa" }
+      ]
+    }
+  ]
+  

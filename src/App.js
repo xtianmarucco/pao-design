@@ -5,6 +5,7 @@ import ContactSection from "./components/contact-section/ContactSection";
 import CvSection from "./components/cv-section/CvSection";
 import SidebarNavigation from "./components/sidebar-navigation/SidebarNavigation";
 import Home from "./components/welcome-section/Home";
+import ProjectsSection from "./components/projects-section/ProjectsSection";
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -45,7 +46,10 @@ function App() {
       <section id="cv" ref={(el) => sectionsRef.current[2] = el}>
         <CvSection />
       </section>
-      <section id="contact" ref={(el) => sectionsRef.current[3] = el}>
+      <section id="portfolio" ref={(el) => sectionsRef.current[3] = el}>
+        <ProjectsSection/>
+      </section>
+      <section id="contact" ref={(el) => sectionsRef.current[4] = el}>
         <ContactSection />
       </section>
     </div>
