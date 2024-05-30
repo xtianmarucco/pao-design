@@ -4,6 +4,7 @@ html {
 
 .App {
   position: relative;
+  min-height:fit-content
 }
 
 section {

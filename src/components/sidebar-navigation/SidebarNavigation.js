@@ -1,7 +1,7 @@
 import React from 'react';
 import './sidebar-navigation.css';
 
-const SidebarNavigation = () => {
+const SidebarNavigation = ({ activeSection }) => {
   const buttons = [
     { imgSrc: '/welcome-menu-about.svg', alt: 'About', section: 'about' },
     { imgSrc: '/welcome-item-cv.svg', alt: 'CV', section: 'cv' },
@@ -18,7 +18,7 @@ const SidebarNavigation = () => {
       {buttons.map((button, index) => (
         <button
           key={index}
-          className="nav-button"
+          className={`nav-button ${activeSection === button.section ? 'active' : ''}`}
           onClick={() => handleNavigation(button.section)}
         >
           <img src={button.imgSrc} alt={button.alt} className="nav-icon" />
