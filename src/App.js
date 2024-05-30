@@ -10,10 +10,21 @@ function App() {
   return (
     <div className="App">
       <SidebarNavigation />
-      <Home></Home>
-      <AboutMe></AboutMe>
-      <CvSection></CvSection>
-      <ContactSection></ContactSection>
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <AboutMe />
+      </section>
+      <section id="cv">
+        <CvSection />
+      </section>
+      <section id="portfolio">
+        <CvSection />
+      </section>
+      <section id="contact">
+        <ContactSection />
+      </section>
     </div>
   );
 }
