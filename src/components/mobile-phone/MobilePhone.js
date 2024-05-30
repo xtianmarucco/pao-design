@@ -19,9 +19,9 @@ const MobilePhone = ({ screenContent }) => {
         <PhoneLinkButton iconSrc='/location-icon.svg' text='Scan me' />
       </div>
       <div className="bottom-bar">
-        <PhoneButton iconSrc='/scan-fill-icon.svg' buttonText='Scan me'/>
+        <PhoneButton iconSrc='/download-icon-btn.svg' buttonText='Download'/>
         <br></br>
-        <PhoneButton iconSrc='/icon-phone-fill.svg' buttonText='Contact me'/>
+        <PhoneButton iconSrc='/icon-phone-fill.svg' buttonText='Calling'/>
       </div>
     </div>
   );
