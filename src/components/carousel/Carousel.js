@@ -13,10 +13,10 @@ const Carousel = ({ children }) => {
     setCurrentSlide((prev) => (prev === 0 ? children.length - 1 : prev - 1));
   };
 
-  useEffect(() => {
-    slideInterval.current = setInterval(nextSlide, 10000);
-    return () => clearInterval(slideInterval.current);
-  },);
+  // useEffect(() => {
+  //   slideInterval.current = setInterval(nextSlide, 10000);
+  //   return () => clearInterval(slideInterval.current);
+  // }, [children.length]);
 
   return (
     <div className="carousel">

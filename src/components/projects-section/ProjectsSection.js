@@ -1,23 +1,25 @@
 import React from 'react';
 import Carousel from '../carousel/Carousel';
-import ProjectDescription from '../project-description/ProjectDescription';
+import Project from '../project-component/project';
 import "./projects-section.css";
 import projects from '../../data/projects.json';
+
 function ProjectsSection() {
   return (
     <div id='projects-section'>
        <section id="carousel">
-        <Carousel>
-        {projects.map((project, index) => (
-          <ProjectDescription
+       <Carousel>
+       {projects.map((project, index) => (
+          <Project 
             key={index}
-            projectTitle={project.title}
+            title={project.title}
             buttonColor={project.buttonColor}
-            projectTextDescription={project.description}
+            description={project.description}
+            icons={project.icons}
             images={project.images}
           />
-        ))} 
-        </Carousel>
+        ))}
+      </Carousel>
       </section>
     </div>
   )

@@ -1,33 +1,91 @@
 [
     {
-      "title": "Awesome Project",
+      "title": "Art Galery",
       "buttonColor": "#4CAF50",
-      "description": "This is a detailed description of the awesome project. It explains all the features and functionalities of the project.",
+      "description": "I worked as a web designer alongside a graphic designer. We focused on developing the interface and interactions for a software company using HTML, CSS, and JavaScript.",
+     "icons":  [  
+        { "url": "./html-icon.svg", "backgroundColor": "#699BF7" },
+        { "url": "./css-icon.svg", "backgroundColor": "#699BF7" },
+        { "url": "./angular-icon.svg", "backgroundColor": "#699BF7" },
+        { "url": "./js-icon.svg", "backgroundColor": "#699BF7" }
+      ]
+      ,
       "images": [
-        { "url": "/path/to/image1.jpg", "backgroundColor": "#eee" },
-        { "url": "/path/to/image2.jpg", "backgroundColor": "#ddd" },
-        { "url": "/path/to/image3.jpg", "backgroundColor": "#ccc" }
+        { "url": "./project-one-colors.svg", "backgroundColor": "#ddd" },
+        { "url": "./project-one-imagen-three.svg", "backgroundColor": "#ccc" },
+        { "url": "./project-one-image-one.svg"},
+        { "url": "./project-one-imagen-two.svg", "backgroundColor": "#ddd" }
       ]
     },
     {
-      "title": "Cool Project",
+      "title": "Code It",
       "buttonColor": "#FF5722",
-      "description": "This is a detailed description of the cool project. It highlights the main features and unique aspects.",
+      "description": "I worked as a web designer alongside a graphic designer. We focused on developing the interface and interactions for a software company using HTML, CSS, and JavaScript.",
+      "icons": [
+        { "url": "./html-icon.svg", "backgroundColor": "#FF8577 " },
+        { "url": "./css-icon.svg", "backgroundColor": "#FF8577 " },
+        { "url": "./angular-icon.svg", "backgroundColor": "#FF8577 " },
+        { "url": "./js-icon.svg", "backgroundColor": "#FF8577 " }
+      ],
       "images": [
-        { "url": "/path/to/image4.jpg", "backgroundColor": "#fdd" },
-        { "url": "/path/to/image5.jpg", "backgroundColor": "#dfd" },
-        { "url": "/path/to/image6.jpg", "backgroundColor": "#ddf" }
+        { "url": "./project-one-colors.svg", "backgroundColor": "#ddd" },
+        { "url": "./project-one-imagen-three.svg", "backgroundColor": "#ccc" },
+        { "url": "./project-one-image-one.svg"},
+        { "url": "./project-one-imagen-two.svg", "backgroundColor": "#ddd" }
       ]
     },
     {
-      "title": "Innovative Project",
-      "buttonColor": "#3F51B5",
-      "description": "This project showcases innovative solutions and cutting-edge technologies.",
+      "title": "New Messenger",
+      "buttonColor": "#0FA958",
+      "description": "TAlongside my team, we redesigned our messaging platform and developed a new app. In this project, my focus was on UX/UI design, ensuring an intuitive and engaging user experience.",
+      "icons": [
+        { "url": "./html-icon.svg", "backgroundColor": "#0FA958" },
+        { "url": "./css-icon.svg", "backgroundColor": "#0FA958" },
+        { "url": "./angular-icon.svg", "backgroundColor": "#0FA958" },
+        { "url": "./js-icon.svg", "backgroundColor": "#0FA958" }
+      ],
       "images": [
-        { "url": "/path/to/image7.jpg", "backgroundColor": "#ccc" },
-        { "url": "/path/to/image8.jpg", "backgroundColor": "#bbb" },
-        { "url": "/path/to/image9.jpg", "backgroundColor": "#aaa" }
+        { "url": "./project-one-colors.svg", "backgroundColor": "#ddd" },
+        { "url": "./project-one-imagen-three.svg", "backgroundColor": "#ccc" },
+        { "url": "./project-one-image-one.svg"},
+        { "url": "./project-one-imagen-two.svg", "backgroundColor": "#ddd" }
       ]
+      
+    },
+    {
+      "title": "E-Commerce Fashion",
+      "buttonColor": "#FF5722",
+      "description": "I played a critical role in crafting the framework for a fashion e-commerce platform, focusing on UX. My emphasis was on designing an intuitive and visually appealing navigation flow that guided users.",
+      "icons": [
+        { "url": "./html-icon.svg", "backgroundColor": "#FF3838" },
+        { "url": "./css-icon.svg", "backgroundColor": "#FF3838" },
+        { "url": "./angular-icon.svg", "backgroundColor": "#FF3838" },
+        { "url": "./js-icon.svg", "backgroundColor": "#FF3838" }
+      ],
+      "images": [
+        { "url": "./project-one-colors.svg", "backgroundColor": "#ddd" },
+        { "url": "./project-one-imagen-three.svg", "backgroundColor": "#ccc" },
+        { "url": "./project-one-image-one.svg"},
+        { "url": "./project-one-imagen-two.svg", "backgroundColor": "#ddd" }
+      ]
+    },
+    {
+      "title": "Django Blog ",
+      "buttonColor": "#868686",
+      "description": "TIn my front-end role, I collaborated closely to design the interface and interactions for a note-taking blog using HTML, CSS, and Bootstrap. Additionally, I integrated these designs seamlessly with Django on the back-end team.",
+      "icons": [
+        { "url": "./html-icon.svg", "backgroundColor": "#868686" },
+        { "url": "./css-icon.svg", "backgroundColor": "#868686" },
+        { "url": "./angular-icon.svg", "backgroundColor": "#868686" },
+        { "url": "./js-icon.svg", "backgroundColor": "#868686" }
+      ],
+      "images": [
+        { "url": "./project-one-colors.svg" },
+        { "url": "./project-one-imagen-three.svg"},
+        { "url": "./project-one-image-one.svg"},
+        { "url": "./project-one-imagen-two.svg" }
+      ]
+      
     }
   ]
   
