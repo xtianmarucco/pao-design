@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './comic-button.scss';
+import './comic-button.css';
 
 const ComicButton = ({ iconSrc, text }) => {
   return (

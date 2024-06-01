@@ -1,0 +1,48 @@
+.project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 600px;
+    max-width: 345px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .project-button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-text {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .project-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .project-image {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

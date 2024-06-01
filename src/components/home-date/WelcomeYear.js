@@ -1,4 +1,6 @@
-import "./welcome-year.scss";
+
+import React from "react";
+import "./welcome-year.css";
 
 const WelcomeYear = () => {
   return (

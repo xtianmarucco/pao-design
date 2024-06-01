@@ -1,7 +1,9 @@
 import React from 'react';
-import './home.scss'; // Importa los estilos Sass de la sección Home
+import './home.css'; // Importa los estilos Sass de la sección Home
 import Image from '../image/Image';
 import WelcomeYear from '../home-date/WelcomeYear';
+
+
 const Home = () => {
     return (
         <div className="home-section" id="home-section">

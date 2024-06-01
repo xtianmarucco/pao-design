@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './phone-links-button.scss';
+import './phone-links-button.css';
 
 const PhoneLinkButton = ({ iconSrc, text }) => {
   return (

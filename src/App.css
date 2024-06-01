@@ -1,7 +1,37 @@
-.App {
- 
-
+html {
+  scroll-behavior: smooth;
 }
+
+.App {
+  position: relative;
+  min-height:fit-content
+}
+
+section {
+  min-height: 100vh;
+}
+
+.sidebar-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.nav-icon {
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+}
+
 
 h1{
   font-size: 48px;
