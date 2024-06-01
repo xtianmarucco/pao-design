@@ -1,16 +1,28 @@
 import React from 'react';
 import Carousel from '../carousel/Carousel';
 import Project from '../project-component/project';
+import SectionTitle from '../section-title/SectionTitle'
 import "./projects-section.css";
 import projects from '../../data/projects.json';
 
-function ProjectsSection() {
+const ProjectsSection = () => {
   return (
     <div id='projects-section'>
+       <SectionTitle
+            title="Portfolio"
+            classNameImg="about-me-icon"
+            imgSrc="/about-me-icon.svg"
+            classNameTitle="about-me-title-projects"
+            borderWidth={3}
+            borderColor="black"
+            borderRadius="35px"
+            cornerSize="16px"
+            backgroundColor="#9CEB60"
+          />
        <section id="carousel">
        <Carousel>
-       {projects.map((project, index) => (
-          <Project 
+        {projects.map((project, index) => (
+          <Project
             key={index}
             title={project.title}
             buttonColor={project.buttonColor}
@@ -25,4 +37,4 @@ function ProjectsSection() {
   )
 }
 
-export default ProjectsSection
+export default ProjectsSection ;

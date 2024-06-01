@@ -33,7 +33,7 @@ const AboutMe = () => {
           <Image className="about-personal" src="/about-personal.png" />
         </div>
         <div className="text-box-container">
-          <TextBox text={content.aboutMeText} />
+          <TextBox text1={content.aboutMeText.p1} text2={content.aboutMeText.p2}/>
         </div>
         <div className="about-personal-mobile-container">
           <Image

@@ -22,7 +22,7 @@
   
   .carousel-control {
     position: absolute;
-    top: 50%;
+    top: 80%;
     transform: translateY(-50%);
     border: none;
     font-size: 2rem;
@@ -36,6 +36,7 @@
     height: 60px;
     width: 60px;
     left: 10px;
+    background-color: transparent;
   }
   
   .next {

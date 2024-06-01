@@ -1,40 +1,48 @@
-import React from "react";
-import Image from "../image/Image";
-import "./project.css";
+import React from 'react';
+import Image from '../image/Image';
+import './project.css';
 
-const Project = ({ title, buttonColor, description, icons }) => {
+const Project = ({ title, buttonColor, description, icons, images }) => {
   return (
     <div className="project-container">
+       
       <div className="top-section-projects">
         <div className="project-header">
-          <button
-            className="project-button"
-            style={{ backgroundColor: buttonColor }}
-          >
+          <button className="project-button" style={{ backgroundColor: buttonColor }}>
             {title}
           </button>
-          <div className="project-description">{description}</div>
+          <div className="project-description"><p>{description}</p></div>
           <div className="project-icons">
             {icons.map((icon, index) => (
-              <div
+              <Image
                 key={index}
+                src={icon.url}
+                alt={`icon-${index}`}
                 className="project-icon"
-                style={{
-                  backgroundImage: `url(${icon.url})`,
-                  backgroundColor: icon.backgroundColor,
-                }}
               />
             ))}
           </div>
         </div>
-        <div>
-          <Image />
-          <Image />
+        <div className="project-images">
+          {images.slice(0, 2).map((image, index) => (
+            <Image
+              key={index}
+              src={image.url}
+              alt={`project-image-${index}`}
+              className="project-image"
+            />
+          ))}
         </div>
       </div>
-      <div className="botton-section-projects">
-        <Image />
-        <Image />
+      <div className="bottom-section-projects">
+        {images.slice(2, 4).map((image, index) => (
+          <Image
+            key={index}
+            src={image.url}
+            alt={`project-image-${index}`}
+            className="project-image"
+          />
+        ))}
       </div>
     </div>
   );
