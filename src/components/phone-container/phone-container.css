@@ -1,12 +1,11 @@
 
 
-.container-component {
+.phone-container-component {
   padding: 5% 10%;
   position: relative;
   width: 100%;
   height: 100%;
-  width: fit-content;
-  max-width: 500px;
+  max-width: 300px;
   max-height: 650px;
   background-color: #7795FF;
   border: 3px solid black;
@@ -44,3 +43,11 @@
     }
   }
   
+
+  @media (max-width: 600px){
+    .phone-container-component{
+      margin-top: 2rem;
+      width: 70%;
+      height: fit-content;
+      
+    }  }

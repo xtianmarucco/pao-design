@@ -2,10 +2,9 @@ import React from 'react';
 import Image from '../image/Image';
 import './project.css';
 
-const Project = ({ title, buttonColor, description, icons, images }) => {
+const Project = ({ title, buttonColor, description, icons, images, iconBackgroundColor, iconBorderRadius, iconPadding, iconHeight }) => {
   return (
     <div className="project-container">
-       
       <div className="top-section-projects">
         <div className="project-header">
           <button className="project-button" style={{ backgroundColor: buttonColor }}>
@@ -19,6 +18,7 @@ const Project = ({ title, buttonColor, description, icons, images }) => {
                 src={icon.url}
                 alt={`icon-${index}`}
                 className="project-icon"
+                style={{ backgroundColor: iconBackgroundColor, borderRadius: iconBorderRadius, padding: iconPadding, height:iconHeight }}
               />
             ))}
           </div>

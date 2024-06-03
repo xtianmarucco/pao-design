@@ -9,6 +9,7 @@
     height: 100px; 
    
     .title-section-icon{
+      position: absolute;
       height: 60px;
       margin-left: 10%;
     }

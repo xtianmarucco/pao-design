@@ -24,9 +24,7 @@
     width: 120px;
     height: 72px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
+    left: 10%;
   }
    .welcome-year-title {
     font-size: 30px;
@@ -42,8 +40,6 @@
     width: 120px;
     height: 72px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
   }
    .welcome-year-title {
@@ -55,5 +51,4 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-}
+
