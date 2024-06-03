@@ -19,31 +19,31 @@
   justify-content: center;
   align-items: center;
 }
-  
-  .carousel-control {
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    border: none;
-    font-size: 2rem;
-    padding: 0.5rem;
-    cursor: pointer;
-  }
-  
-  .prev {
-    background-image: url(/public/carousel-button-left.svg);
-    background-size:cover ;
-    height: 60px;
-    width: 60px;
-    left: 10px;
-    background-color: transparent;
-  }
-  
-  .next {
-    background-image: url(/public/carousel-button-right.svg);
-    background-size:cover ;
-    height: 60px;
-    width: 60px;
-    right: 10px;
-  }
-  
+
+.carousel-control {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.prev {
+  background-image: url(/public/carousel-button-left.svg);
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+  left: 10px;
+  background-color: transparent;
+}
+
+.next {
+  background-image: url(/public/carousel-button-right.svg);
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+  right: 10px;
+  background-color: transparent;
+}

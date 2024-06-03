@@ -29,6 +29,10 @@ const ProjectsSection = () => {
             description={project.description}
             icons={project.icons}
             images={project.images}
+            iconBackgroundColor={project.iconBackgroundColor} 
+            iconBorderRadius="10px" // Example value for border-radius
+            iconPadding="5px"
+            iconHeight="50px"
           />
         ))}
       </Carousel>

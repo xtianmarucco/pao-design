@@ -5,7 +5,7 @@ import MobilePhone from "../mobile-phone/MobilePhone";
 
 const PhoneContainer = () => {
   return (
-    <div className="container-component">
+    <div className="phone-container-component">
           <MobilePhone></MobilePhone>
       <div className="corner top-left"></div>
       <div className="corner top-right"></div>
