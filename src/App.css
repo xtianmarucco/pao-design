@@ -54,12 +54,12 @@ h1 {
 }
 .doodle4 {
   display: flex;
-  top: 30%;
-  left: -25%;
+  top: 25%;
+  left: -35%;
   transform: scale(1.2);}
 .doodle5 {
   display: flex;
-  top: 33%;
+  top: 35%;
   left: 65%;
   transform: scale(1.1);}
 .doodle6 {
