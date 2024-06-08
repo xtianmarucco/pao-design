@@ -1,19 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './phone-button.css';
 
-const PhoneButton = ({ iconSrc, buttonText }) => {
+const PhoneButton = ({ iconSrc, buttonText, filePath, fileName }) => {
   return (
+    <a href={filePath} download={fileName}>
     <button className="icon-button">
       <img src={iconSrc} alt="icon" className="icon" />
       <span className="button-text">{buttonText}</span>
     </button>
+    </a>
   );
 };
 
-PhoneButton.propTypes = {
-  iconSrc: PropTypes.string.isRequired,
-  buttonText: PropTypes.string.isRequired,
-};
+
 
 export default PhoneButton;
