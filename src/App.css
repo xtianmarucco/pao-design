@@ -4,7 +4,7 @@ html {
 
 .App {
   position: relative;
-  min-height:fit-content
+  min-height: fit-content;
 }
 
 section {
@@ -32,8 +32,40 @@ section {
   height: 40px; /* Adjust as needed */
 }
 
-
-h1{
+h1 {
   font-size: 48px;
   color: #ffff;
+}
+
+.doodle {
+  position: absolute;
+}
+
+.doodle1 {
+}
+.doodle2 {
+  display: flex;
+  left: 70%;
+}
+.doodle3 {
+  display: flex;
+  top: 13%;
+  left: 75%;
+}
+.doodle4 {
+  display: flex;
+  top: 30%;
+  left: -25%;
+  transform: scale(1.2);}
+.doodle5 {
+  display: flex;
+  top: 33%;
+  left: 65%;
+  transform: scale(1.1);}
+.doodle6 {
+  display: none;
+}
+.doodle7 {
+  display: flex;
+  top: 90%;
 }
