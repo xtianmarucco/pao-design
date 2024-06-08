@@ -41,8 +41,8 @@ h1 {
   position: absolute;
 }
 
-.doodle1 {
-}
+/* .doodle1 {
+} */
 .doodle2 {
   display: flex;
   left: 70%;
@@ -67,5 +67,6 @@ h1 {
 }
 .doodle7 {
   display: flex;
-  top: 90%;
+  top: 89%;
+  z-index: 3;
 }
