@@ -27,6 +27,8 @@ const CvSection = () => {
               <ComicButton
                 iconSrc="./download-icon-btn.svg"
                 text="Download me"
+                filePath="./jquery-cheatsheet.pdf"
+                fileName="jquery-cheatsheet"
               />
             </div>
             <div className="cv-balloon-2">

@@ -19,7 +19,10 @@ const MobilePhone = ({ screenContent }) => {
         <PhoneLinkButton iconSrc='/location-icon.svg' text='Scan me' />
       </div>
       <div className="bottom-bar">
-        <PhoneButton iconSrc='/download-icon-btn.svg' buttonText='Download'/>
+        <PhoneButton iconSrc='/download-icon-btn.svg' buttonText='Download'
+         filePath="./jquery-cheatsheet.pdf"
+         fileName="jquery-cheatsheet"
+        />
         <br></br>
         <PhoneButton iconSrc='/icon-phone-fill.svg' buttonText='Calling'/>
       </div>
