@@ -31,6 +31,7 @@ const Carousel = ({ children }) => {
       </button>
       <button className="carousel-control next" onClick={nextSlide}>
       </button>
+     
     </div>
   );
 };

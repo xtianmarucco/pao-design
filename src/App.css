@@ -8,7 +8,15 @@ html {
 }
 
 section {
-  min-height: 100vh;
+  height: 100vh;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ #home{
+  margin-top: 0px;
 }
 
 .sidebar-navigation {
@@ -41,32 +49,129 @@ h1 {
   position: absolute;
 }
 
-/* .doodle1 {
-} */
-.doodle2 {
+.doodle1 {
   display: flex;
-  left: 70%;
+  left: 0cqb;
+  top: 3%;
+  height: 150px;
 }
+.doodle2 {
+  height: 150px;
+  display: flex;
+  right: -37px;
+}
+
 .doodle3 {
   display: flex;
   top: 13%;
   left: 75%;
 }
 .doodle4 {
-  display: flex;
-  top: 25%;
-  left: -35%;
-  transform: scale(1.2);}
+display: flex;
+ height: 450px;
+ top: 30%;
+
+}
 .doodle5 {
   display: flex;
-  top: 35%;
-  left: 65%;
-  transform: scale(1.1);}
+  height: 340px;
+  top: 38%;
+  right: 0%;
+}
 .doodle6 {
-  display: none;
+  display: flex;
+  height: 340px;
+    top: 55%;
+
 }
 .doodle7 {
   display: flex;
-  top: 89%;
-  z-index: 3;
+  top: 96%;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+
+  section {
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+  }
+
+  .doodle1 {
+  display: flex;
+  height: 80px;
+  }
+
+  .doodle2 {
+    height: 80px;
+    display: flex;
+    right: -37px;
+  }
+  
+
+  .doodle3 {
+    display: flex;
+    top: 15%;
+    left: 75%;
+    transform: scale(1.8);
+  }
+
+  .doodle4 {
+    display: flex;
+    height: 150px;
+    top: 37%;
+}
+
+.doodle5 {
+  display: flex;
+  top: 40%;
+  height: 150px;
+ 
+}
+.doodle6 {
+  display: flex;
+  top: 55%;
+  height: 150px;
+ 
+}
+
+  
+}
+
+@media (max-width: 600px) {
+  .doodle1 {
+    display: flex;
+    
+  }
+
+  .doodle3 {
+    display: flex;
+    top: 15%;
+    left: 75%;
+    transform: scale(1.8);
+  }
+
+  .doodle4 {
+    display: flex;
+    height: 150px;
+    top: 37%;
+}
+
+.doodle5 {
+  display: flex;
+  top: 55%;
+  height: 150px;
+
+}
+
+
+  .doodle7 {
+    display: flex;
+    top: 96%;
+    z-index: 3;
+    left: -69%;
+    transform: scale(.2);
+}
 }

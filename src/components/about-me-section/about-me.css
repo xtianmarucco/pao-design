@@ -5,7 +5,7 @@ h1 {
 }
 #about-me-section{
   height: 100vh;
-  padding: 5%;
+  padding:0 5%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -21,6 +21,15 @@ h1 {
     ". about-photo-container about-personal-container ."
     ". about-personal-mobile-container text-box-container .";
 
+
+  .about-photo{
+    max-height:350px;
+  }
+  .about-personal{
+    max-height: 250px;
+    width: auto;
+  }
+
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -34,6 +43,18 @@ h1 {
       position: relative;
       top: 0;
     }
+
+    .about-photo-container {
+      position: relative;
+      top: 0;
+  }
+  .about-photo{
+    height: 180px;
+    width: auto;
+  }
+  p{
+    font-size: 14px;
+  }
 
     .about-personal-mobile-container {
       display: block;
@@ -67,12 +88,15 @@ h1 {
       position: relative;
       top: 0;
     }
+    p{
+      font-size: 14px;
+    }
 
     .about-photo-container{
       position:relative;
       top: 0;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
 
     .about-personal-mobile-container {

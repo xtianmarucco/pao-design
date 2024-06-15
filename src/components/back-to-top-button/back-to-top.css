@@ -1,0 +1,39 @@
+.back-to-top {
+  height: 50px;
+  width: 50px;
+  padding: 11px 10px;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: solid 1px rgba(0, 0, 0, 0.348);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top-button {
+  background-image: url(/public/carousel-button-left.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  transition: opacity 0.3s ease;
+  height: 50px;
+  width: 50px;
+  border: unset;
+  transform: rotate(90deg);
+  top: -3px;
+  right: 3px;
+  position: relative;
+}
+
+.back-to-top-button:hover {
+  opacity: 1;
+}

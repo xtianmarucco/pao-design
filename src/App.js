@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
+import BackToTop from "./components/back-to-top-button/BackToTop"
 import AboutMe from "./components/about-me-section/AboutMe";
 import ContactSection from "./components/contact-section/ContactSection";
 import CvSection from "./components/cv-section/CvSection";
@@ -43,19 +44,26 @@ function App() {
        <img src="./doodle-5.svg" alt="Doodle 1" className="doodle doodle5" />
        <img src="./doodle-6.svg" alt="Doodle 2" className="doodle doodle6" />
        <img src="./doodle-7.svg" alt="Doodle 2" className="doodle doodle7" />
+       <img src="./doodle-8.svg" alt="Doodle 2" className="doodle doodle8" />
+
       <SidebarNavigation activeSection={activeSection} />
+      <BackToTop/>
       <section id="home" ref={(el) => sectionsRef.current[0] = el}>
         <Home />
       </section>
+      <br></br>
       <section id="about" ref={(el) => sectionsRef.current[1] = el}>
         <AboutMe />
       </section>
+      <br></br>
       <section id="cv" ref={(el) => sectionsRef.current[2] = el}>
         <CvSection />
       </section>
+      <br></br>
       <section id="portfolio" ref={(el) => sectionsRef.current[3] = el}>
         <ProjectsSection/>
       </section>
+      <br></br>
       <section id="contact" ref={(el) => sectionsRef.current[4] = el}>
         <ContactSection />
       </section>

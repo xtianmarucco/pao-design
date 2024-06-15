@@ -6,7 +6,7 @@ const SidebarNavigation = ({ activeSection }) => {
     { imgSrc: '/welcome-menu-about.svg', alt: 'About', section: 'about' },
     { imgSrc: '/welcome-item-cv.svg', alt: 'CV', section: 'cv' },
     { imgSrc: '/welcome-item-portfolio.svg', alt: 'Portfolio', section: 'portfolio' },
-    { imgSrc: '/welcome-item-contact.svg', alt: 'Contact', section: 'contact' }
+    { imgSrc: '/welcome-item-contact.svg', alt: 'Contact', section: 'contact' },
   ];
 
   const handleNavigation = (section) => {
@@ -24,6 +24,7 @@ const SidebarNavigation = ({ activeSection }) => {
           <img src={button.imgSrc} alt={button.alt} className="nav-icon" />
         </button>
       ))}
+    
     </div>
   );
 };

@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FFFCFC;
+  background-color: #fffcfc;
   border: 2px solid black;
   border-radius: 20px 20px 0 20px;
   max-width: 260px;
@@ -36,17 +36,35 @@
   }
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -10px;
-    left: 20px; 
+    left: 20px;
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    border-top-color: #FFFCFC;
+    border-top-color: #fffcfc;
     border-bottom: 0;
     border-left: 0;
     margin-left: -5px;
     box-shadow: -2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .comic-button {
+    height: 40px;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .comic-button__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .comic-button__text{
+    font-size: 10px;
   }
 }
