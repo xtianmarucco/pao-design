@@ -1,9 +1,16 @@
 .carousel {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
+.title-container-projects{
+  position: absolute;
+    width: 600px;
+    margin-left: 216px;
+    top: 70px;
+}
+
 
 .carousel-inner {
   display: flex;
@@ -22,28 +29,51 @@
 
 .carousel-control {
   position: absolute;
-  top: 80%;
+  top: 93%;
   transform: translateY(-50%);
   border: none;
-  font-size: 2rem;
+  
   padding: 0.5rem;
   cursor: pointer;
 }
+.carousel-control-prev .carousel-control-prev{
+  height: 50px !important;
+  width: 50px !important;
+  padding: 11px 10px !important;
+  bottom: 60px !important;
+  right: 60px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: white !important;
+
+}
+
 
 .prev {
+  margin-top: 1.5rem;
   background-image: url(/public/carousel-button-left.svg);
-  background-size: cover;
-  height: 60px;
-  width: 60px;
-  left: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  height:40px;
+  width: 40px;
+  left: 45%;
   background-color: transparent;
 }
 
 .next {
+  margin-top: 1.5rem;
   background-image: url(/public/carousel-button-right.svg);
-  background-size: cover;
-  height: 60px;
-  width: 60px;
-  right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  height:40px;
+  width: 40px;
+  right: 45%;
   background-color: transparent;
 }
+
+
+

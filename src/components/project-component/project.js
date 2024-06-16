@@ -1,10 +1,12 @@
 import React from 'react';
 import Image from '../image/Image';
+import SectionTitle from '../section-title/SectionTitle';
 import './project.css';
 
 const Project = ({ title, buttonColor, description, icons, images, iconBackgroundColor, iconBorderRadius, iconPadding, iconHeight }) => {
   return (
     <div className="project-container">
+  
       <div className="top-section-projects">
         <div className="project-header">
           <button className="project-button" style={{ backgroundColor: buttonColor }}>
