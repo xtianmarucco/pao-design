@@ -3,133 +3,76 @@
 h1 {
   font-family: "Familjen Grotesk", sans-serif;
 }
-#about-me-section{
-  height: 100vh;
-  padding:0 5%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 .about-me-container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 0.2fr 1.8fr 1.9fr 0.1fr;
-  grid-template-rows: 0.6fr 1.6fr 1.3fr;
-  gap: 0em 0em;
+  grid-template-columns: .2fr 1fr 1fr .2fr;
+  grid-template-rows: .5fr 0.7fr 1.3fr .5fr;
+  gap: 1rem 1rem;
   grid-auto-flow: row;
   grid-template-areas:
-    "title-section-container title-section-container . ."
-    ". about-photo-container about-personal-container ."
-    ". about-personal-mobile-container text-box-container .";
-
-
-  .about-photo{
-    max-height:350px;
-  }
-  .about-personal{
-    max-height: 250px;
-    width: auto;
-  }
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "title-section-container"
-      "about-photo-container"
-      "text-box-container"
-      "about-personal-mobile-container";
-
-    .about-photo-container, .about-personal-container, .text-box-container {
-      position: relative;
-      top: 0;
-    }
-
-    .about-photo-container {
-      position: relative;
-      top: 0;
-  }
-  .about-photo{
-    height: 180px;
-    width: auto;
-  }
-  p{
-    font-size: 14px;
-  }
-
-    .about-personal-mobile-container {
-      display: block;
-    }
-
-    .about-personal-container {
-      display: none;
-    }
-  }
-
-  .about-photo-container{
-    position:relative;
-    top: 25%;
-  }
-
-  .text-box-container{
-    position:relative;
-    top: -15%;
-  }
-
-  @media (max-width: 600px) {
-    min-height: 100vh;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "title-section-container"
-      "about-photo-container"
-      "text-box-container"
-      "about-personal-mobile-container";
-
-    .about-photo-container, .about-personal-container, .text-box-container {
-      position: relative;
-      top: 0;
-    }
-    p{
-      font-size: 14px;
-    }
-
-    .about-photo-container{
-      position:relative;
-      top: 0;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .about-personal-mobile-container {
-      display: block;
-    }
-
-    .about-personal-container {
-      display: none;
-    }
-  }
+    ". . . ."
+    ". title-section-container about-personal-container ."
+    ". about-photo-container text-box-container ."
+    ". about-personal-mobile-container . ."
+    ". . . .";
+  padding: 5% 5%;
+  width: 100%;
 }
 
 .title-section-container {
   grid-area: title-section-container;
 }
 
+.about-personal-container {
+  grid-area: about-personal-container;
+}
+
 .about-photo-container {
   grid-area: about-photo-container;
+}
+
+.text-box-container {
+  grid-area: text-box-container;
+}
+
+.about-personal-mobile-container {
+  grid-area: about-personal-mobile-container;
+}
+
+.title-section-container {
+  grid-area: title-section-container;
+  width: 100%; /* Ensure full width */
   position: relative;
- 
+}
+
+.about-photo-container {
+  grid-area: about-photo-container;
+  max-width: 530px;
+  height: auto;
+  position: relative;
   height: fit-content;
+  top: -13rem;
 }
 
 .about-personal-container {
   grid-area: about-personal-container;
+  position: relative;
+  left: 1rem;
 }
 
 .about-personal-mobile-container {
   grid-area: about-personal-mobile-container;
   display: none;
+  max-width: 530px;
+  max-height: 280px;
 }
 
 .text-box-container {
+  left: -5rem;
   grid-area: text-box-container;
   position: relative;
+  max-width: 720px;
+  max-height: 430px;
 }

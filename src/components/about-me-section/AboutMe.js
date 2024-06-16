@@ -7,7 +7,7 @@ import Image from "../image/Image";
 
 const AboutMe = () => {
   return (
-    <div id="about-me-section">
+   
       <div className="about-me-container">
         <div className="title-section-container">
           <SectionTitle
@@ -43,7 +43,7 @@ const AboutMe = () => {
         </div>
        
       </div>
-    </div>
+ 
   );
 };
 
