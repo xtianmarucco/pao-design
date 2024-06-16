@@ -9,14 +9,13 @@ html {
 
 section {
   height: 100vh;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 5%;
 }
- #home{
+#home {
   margin-top: 0px;
 }
 
@@ -52,12 +51,12 @@ h1 {
 
 .doodle1 {
   display: flex;
-  left: 0cqb;
+  left: -5%;
   top: 3%;
-  height: 150px;
+  height: 210px;
 }
 .doodle2 {
-  height: 150px;
+  height: 200px;
   display: flex;
   right: -37px;
 }
@@ -65,44 +64,60 @@ h1 {
 .doodle3 {
   display: flex;
   top: 13%;
-  left: 75%;
+  right: -1%;
+  height: 120px;
 }
 .doodle4 {
-display: flex;
- height: 400px;
- top: 30%;
-
+  display: flex;
+  height: 400px;
+  top: 30%;
+  left: -10%;
 }
 .doodle5 {
   display: flex;
-  height: 340px;
-  top: 38%;
-  right: 0%;
+  height: 400px;
+  top: 37%;
+  right: -10%;
 }
 .doodle6 {
   display: flex;
-  height: 340px;
-    top: 55%;
-
+  height: 400px;
+  top: 50%;
+  left: -15%;
+  transform: rotate(20deg);
 }
 .doodle7 {
   display: flex;
   top: 96%;
-  height: 150px;
+  height: 200px;
+}
+
+.doodle8 {
+  top: 53%;
+  height: 400px;
+  right: -10%;
+}
+.doodle9{
+  top: 75%;
+  height: 400px;
+  left: -10%;
+}
+.doodle10{
+  top: 75%;
+  height: 400px;
+  right: -10%;
 }
 
 @media (max-width: 768px) {
-
   section {
     height: 100vh;
     margin-top: 0px;
     margin-bottom: 0px;
-  
   }
 
   .doodle1 {
-  display: flex;
-  height: 80px;
+    display: flex;
+    height: 80px;
   }
 
   .doodle2 {
@@ -110,7 +125,6 @@ display: flex;
     display: flex;
     right: -37px;
   }
-  
 
   .doodle3 {
     display: flex;
@@ -123,28 +137,23 @@ display: flex;
     display: flex;
     height: 150px;
     top: 37%;
-}
+  }
 
-.doodle5 {
-  display: flex;
-  top: 40%;
-  height: 150px;
- 
-}
-.doodle6 {
-  display: flex;
-  top: 55%;
-  height: 150px;
- 
-}
-
-  
+  .doodle5 {
+    display: flex;
+    top: 40%;
+    height: 150px;
+  }
+  .doodle6 {
+    display: flex;
+    top: 55%;
+    height: 150px;
+  }
 }
 
 @media (max-width: 600px) {
   .doodle1 {
     display: flex;
-    
   }
 
   .doodle3 {
@@ -158,21 +167,19 @@ display: flex;
     display: flex;
     height: 150px;
     top: 37%;
-}
+  }
 
-.doodle5 {
-  display: flex;
-  top: 55%;
-  height: 150px;
-
-}
-
+  .doodle5 {
+    display: flex;
+    top: 55%;
+    height: 150px;
+  }
 
   .doodle7 {
     display: flex;
     top: 96%;
     z-index: 3;
     left: -69%;
-    transform: scale(.2);
-}
+    transform: scale(0.2);
+  }
 }

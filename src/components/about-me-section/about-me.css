@@ -41,14 +41,13 @@ h1 {
   grid-area: about-personal-mobile-container;
 }
 
+/* Estilos adicionales específicos */
 .title-section-container {
-  grid-area: title-section-container;
   width: 100%; /* Ensure full width */
   position: relative;
 }
 
 .about-photo-container {
-  grid-area: about-photo-container;
   max-width: 530px;
   height: auto;
   position: relative;
@@ -57,13 +56,11 @@ h1 {
 }
 
 .about-personal-container {
-  grid-area: about-personal-container;
   position: relative;
   left: 1rem;
 }
 
 .about-personal-mobile-container {
-  grid-area: about-personal-mobile-container;
   display: none;
   max-width: 530px;
   max-height: 280px;
@@ -71,8 +68,80 @@ h1 {
 
 .text-box-container {
   left: -5rem;
-  grid-area: text-box-container;
   position: relative;
   max-width: 720px;
   max-height: 430px;
+}
+
+/* Media Queries para Responsiveness */
+
+/* Tablets y dispositivos más pequeños */
+@media (max-width: 1024px) {
+  .about-me-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      "title-section-container"
+      "about-personal-container"
+      "about-photo-container"
+      "text-box-container"
+      "about-personal-mobile-container";
+  }
+  p{
+    font-size: 16px;
+  }
+  .about-photo-container {
+    top: 0;
+    max-width: 100%;
+  }
+
+  .about-personal-container {
+    left: 0;
+  }
+
+  .text-box-container {
+    left: 0;
+    max-width: 100%;
+  }
+
+  .about-personal-mobile-container {
+    display: none;
+  }
+}
+
+/* Teléfonos móviles */
+@media (max-width: 768px) {
+  .about-me-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      "title-section-container"
+      "about-photo-container"
+      "text-box-container"
+      "about-personal-container"
+      "about-personal-mobile-container";
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  .about-photo-container {
+    top: 0;
+    max-width: 100%;
+  }
+
+  .about-personal-container {
+    left: 0;
+    display: none;
+  }
+
+  .text-box-container {
+    left: 0;
+    max-width: 100%;
+  }
+
+  .about-personal-mobile-container {
+    display: block;
+  }
 }

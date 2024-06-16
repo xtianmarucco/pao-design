@@ -1,18 +1,17 @@
-<svg width="39" height="56" viewBox="0 0 39 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_595_1111)">
-<path d="M13.1622 3.83234C12.3838 3.04867 11.1175 3.04443 10.3338 3.82285L8.18453 5.95779C7.40147 6.73561 7.39654 8.00074 8.17351 8.78465L21.4484 22.1781C22.2248 22.9614 22.2206 24.2253 21.439 25.0034L8.07452 38.3075C7.29231 39.0862 7.28876 40.3513 8.06658 41.1344L10.2015 43.2837C10.9799 44.0673 12.2463 44.0716 13.0299 43.2932L31.4076 25.0384C32.1912 24.2599 32.1955 22.9936 31.417 22.21L13.1622 3.83234Z" fill="black"/>
-<path d="M7.00237 42.1915L8.06658 41.1344L7.00237 42.1915L9.1373 44.3408C10.4995 45.7122 12.7156 45.7196 14.087 44.3574L32.4646 26.1026C33.8361 24.7403 33.8435 22.5243 32.4812 21.1529L14.2264 2.77524L13.1622 3.83234L14.2264 2.77524C12.8642 1.40383 10.6481 1.3964 9.27673 2.75864L7.12743 4.89358C5.75707 6.25477 5.74845 8.46875 7.10814 9.84059L20.3831 23.234C20.5772 23.4298 20.5761 23.7458 20.3807 23.9403L7.01626 37.2445C5.64739 38.6071 5.64118 40.8211 7.00237 42.1915Z" stroke="black" stroke-width="3"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.4, SVG Export Plug-In . SVG Version: 9.03 Build 54784)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 94 94" style="enable-background:new 0 0 94 94;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:3;}
+</style>
+<circle class="st0" cx="47" cy="47" r="46.5"/>
+<g>
+	<path d="M41.9,26.3c-0.8-0.8-2.1-0.7-2.8,0.1L37,28.6c-0.8,0.8-0.7,2.1,0.1,2.8l13.7,12.9c0.8,0.8,0.8,2,0.1,2.8L38,60.9
+		c-0.8,0.8-0.7,2.1,0.1,2.8l2.2,2.1c0.8,0.8,2.1,0.7,2.8-0.1l17.7-18.9c0.8-0.8,0.7-2.1-0.1-2.8L41.9,26.3z"/>
+	<path class="st1" d="M37.9,25.3l1.1,1L37.9,25.3l-2.1,2.2c-1.3,1.4-1.3,3.6,0.2,4.9l13.7,12.9c0.2,0.2,0.2,0.5,0,0.7L36.9,59.9
+		c-1.3,1.4-1.3,3.6,0.2,4.9l1-1.1l-1,1.1l2.2,2.1c1.4,1.3,3.6,1.3,4.9-0.2l17.7-18.9c1.3-1.4,1.3-3.6-0.2-4.9L42.9,25.2l-1,1.1
+		l1-1.1C41.5,23.9,39.3,23.9,37.9,25.3z"/>
 </g>
-<defs>
-<filter id="filter0_d_595_1111" x="0.485529" y="0.241699" width="38.5126" height="55.6326" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="5"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_595_1111"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_595_1111" result="shape"/>
-</filter>
-</defs>
 </svg>

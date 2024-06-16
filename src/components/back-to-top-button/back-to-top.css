@@ -1,37 +1,34 @@
 .back-to-top {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   padding: 11px 10px;
   position: fixed;
-  bottom: 60px;
-  right: 60px;
+    left: 91%;
+    top: 80%;
   z-index: 1000;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  border: solid 1px rgba(0, 0, 0, 0.348);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+ 
 }
 
 .back-to-top-button {
-  background-image: url(/public/carousel-button-left.svg);
+  background-image: url(/public/btt-button.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
   transition: opacity 0.3s ease;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border: unset;
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
   top: -3px;
   right: 3px;
   position: relative;
+  filter: drop-shadow(0 2px 2px rgb(10, 10, 10));
 }
 
 .back-to-top-button:hover {
