@@ -1,53 +1,84 @@
+.contact-section-container {
+  display: grid;
+  grid-template-columns: 0.2fr 1.5fr 1.6fr 0.2fr;
+  grid-template-rows: 0.2fr 0.8fr 1.5fr 3.3fr 0.2fr;
+  gap: 3em 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    ". contact-title-section-container contact-phone-container ."
+    ". contact-textbox-container contact-phone-container ."
+    ". contact-sticky-container contact-phone-container ."
+    ". . . .";
+}
 
+.contact-title-section-container {
+  grid-area: contact-title-section-container;
+}
 
-.phone-container-component {
-  padding: 5% 10%;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  max-width: 300px;
-  max-height: 650px;
-  background-color: #7795FF;
-  border: 3px solid black;
+.contact-phone-container {
+  grid-area: contact-phone-container;
+}
+
+.contact-textbox-container {
+  grid-area: contact-textbox-container;
+}
+
+.contact-sticky-container {
+  grid-area: contact-sticky-container;
+}
+
+.contact-text-box-container,
+.contact-phone-container,
+.contact-sticker-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 20px 20px 0px 10px #42445a;
-  
-    .corner {
-      width: 15px;
-      height: 15px;
-      background-color: white;
-      border: 3px solid black;
-      position: absolute;
-    }
-  
-    .top-left {
-      top: -9px;
-      left: -9px; 
-    }
-  
-    .top-right {
-      top: -9px;
-      right: -9px;
-    }
-  
-    .bottom-left {
-      bottom: -9px;
-      left: -9px;
-    }
-  
-    .bottom-right {
-      bottom: -9px;
-      right: -9px;
-    }
-  }
-  
+}
 
-  @media (max-width: 600px){
-    .phone-container-component{
-      margin-top: 2rem;
-      width: 70%;
-      height: fit-content;
-      
-    }  }
+/* Media Queries para Responsiveness */
+
+/* Tablets y dispositivos más pequeños */
+@media (max-width: 1024px) {
+  .contact-section-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      "contact-title-section-container"
+      "contact-phone-container"
+      "contact-textbox-container"
+      "contact-sticky-container";
+    gap: 1em;
+  }
+
+  .contact-title-section-container,
+  .contact-phone-container,
+  .contact-textbox-container,
+  .contact-sticky-container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Teléfonos móviles */
+@media (max-width: 768px) {
+  .contact-section-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      "contact-title-section-container"
+      "contact-textbox-container"
+      "contact-phone-container"
+      "contact-sticky-container";
+    gap: 1em;
+  }
+
+  .contact-title-section-container,
+  .contact-phone-container,
+  .contact-textbox-container,
+  .contact-sticky-container {
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+  }
+}

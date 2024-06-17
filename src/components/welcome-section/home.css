@@ -20,7 +20,7 @@
       margin-bottom: 80px;
     }
 
-    .logo-pao-design-mobile{
+    .logo-pao-design-mobile {
       display: none;
     }
     .welcome-title {
@@ -30,24 +30,24 @@
     }
     .welcome-tag {
       max-width: 300px;
+      filter: drop-shadow(3px 3px 5px #0000008b);
     }
   }
-
 
   @media (max-width: 600px) {
     .home-section-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      height: -webkit-fill-available;    
+      height: -webkit-fill-available;
     }
 
     .image-container {
       margin-top: -10px;
       .logo-pao-design {
-       display: none;
+        display: none;
       }
-      .logo-pao-design-mobile{
+      .logo-pao-design-mobile {
         width: 200px;
         height: auto;
         display: block;
@@ -59,7 +59,8 @@
         margin-bottom: 30px;
       }
       .welcome-tag {
-        max-width: 300px;
+        max-width: 200px;
+        filter: drop-shadow(0 2px 2px rgb(10, 10, 10));
       }
     }
 
@@ -69,20 +70,17 @@
       padding-left: 19px;
       position: absolute;
       top: 10px;
-  }
+    }
   }
 
   @media (min-width: 600px) and (max-width: 768px) {
-
-  .logo-pao-design-mobile
-
-    .image-container {
+    .logo-pao-design-mobile .image-container {
       margin-top: -10px;
       .logo-pao-design {
-       display: none;
+        display: none;
       }
 
-      .logo-pao-design-mobile{
+      .logo-pao-design-mobile {
         width: 250px;
         height: auto;
         display: block;
@@ -97,20 +95,17 @@
       }
     }
 
-
-
     .welcome-year-title {
       font-size: 30px;
       color: black;
       padding-left: 19px;
       position: absolute;
       top: 10px;
-  }
+    }
     .image-container {
       .logo-pao-design {
         max-width: 300px;
         margin-bottom: 70px;
-        
       }
       .welcome-title {
         width: 350px;
@@ -122,5 +117,4 @@
       }
     }
   }
-
 }

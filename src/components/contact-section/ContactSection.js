@@ -10,9 +10,9 @@ import PhoneContainer from "../phone-container/PhoneContainer";
 const ContactSection = () => {
   return (
     <div id="contact-section">
-    <div className="contact-section-container">
-    <div className="contact-title-section-container">
-    <SectionTitle
+      <div class="contact-section-container">
+        <div class="contact-title-section-container">
+        <SectionTitle
             title="Contact"
             imgSrc="/contact-icon.svg"
             borderWidth={3}
@@ -21,25 +21,23 @@ const ContactSection = () => {
             cornerSize="16px"
             backgroundColor="#FFDE2E"
           />
-    </div>
-    <div className="contact-text-box-container">
-    <TextBox text={content.contactText} />
-    </div>
-    <div className="contact-phone-container">
-    <PhoneContainer>
-        
-    </PhoneContainer>
-    </div>
-    <div className="contact-sticker-container">
-    <ContactStickyNote
+        </div>
+        <div class="contact-phone-container">
+      
+        <PhoneContainer></PhoneContainer>
+        </div>
+        <div class="contact-textbox-container">
+        <TextBox text={content.contactText} />
+        </div>
+        <div class="contact-sticky-container">
+        <ContactStickyNote
             imageSrc="/pin-contact.svg"
             classNameNamePin="pin-img"
             text={content.stickyNoteText}
           />
+        </div>
+      </div>
     </div>
-  </div>
-  </div>
-   
   );
 };
 

@@ -1,7 +1,7 @@
 .carousel {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -22,28 +22,81 @@
 
 .carousel-control {
   position: absolute;
-  top: 80%;
+  top: 93%;
   transform: translateY(-50%);
   border: none;
-  font-size: 2rem;
+
   padding: 0.5rem;
   cursor: pointer;
 }
 
 .prev {
+  margin-top: 1.5rem;
   background-image: url(/public/carousel-button-left.svg);
-  background-size: cover;
-  height: 60px;
-  width: 60px;
-  left: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  left: 45%;
   background-color: transparent;
+  filter: drop-shadow(3px 3px 5px #000000);
 }
 
 .next {
+  margin-top: 1.5rem;
   background-image: url(/public/carousel-button-right.svg);
-  background-size: cover;
-  height: 60px;
-  width: 60px;
-  right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  right: 45%;
   background-color: transparent;
+  filter: drop-shadow(3px 3px 5px #000000);
+}
+
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .carousel-control {
+    position: absolute;
+    top: 63.5%;
+    transform: translateY(-50%);
+    border: none;
+  
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  .prev {
+    margin-top: 1.5rem;
+    background-image: url(/public/carousel-button-left.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 50px;
+    left: -1%;
+    background-color: transparent;
+    filter: drop-shadow(3px 3px 5px #000000);
+  }
+  
+  .next {
+    margin-top: 1.5rem;
+    background-image: url(/public/carousel-button-right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 50px;
+    right: -1%;
+    background-color: transparent;
+    filter: drop-shadow(3px 3px 5px #000000);
+  }
 }

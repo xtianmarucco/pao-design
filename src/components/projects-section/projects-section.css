@@ -1,6 +1,6 @@
 #projects-section {
     height: 100vh;
-    padding: 5%;
+    padding: 0 5%;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -10,4 +10,8 @@
   .about-me-title-projects{
     position: relative ;
     top: 50px;
+  }
+
+  @media (max-width: 768px){
+
   }

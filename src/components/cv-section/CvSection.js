@@ -8,7 +8,7 @@ import ComicButton from "../comic-button/ComicButton";
 
 const CvSection = () => {
   return (
-    <div id="cv-section">
+
       <div className="cv-section-container">
         <div className="cv-title-section-container">
           <SectionTitle
@@ -47,7 +47,6 @@ const CvSection = () => {
           <Image className="cv-skills-mobile" src="./cv-skills-mobile.svg" />
         </div>
       </div>
-    </div>
   );
 };
 

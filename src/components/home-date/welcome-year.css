@@ -8,7 +8,7 @@
   flex-direction: column-reverse;
   position: relative;
   bottom: 20%;
-  left: 5%;
+  left: -45%;
 }
 
 .welcome-year-title {
@@ -16,7 +16,7 @@
   color: black;
   padding-left: 19px;
   position: absolute;
-  top: 23px;
+  top: 16px;
 }
 
 @media (max-width: 600px) {

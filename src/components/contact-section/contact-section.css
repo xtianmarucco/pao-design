@@ -1,71 +1,88 @@
-#contact-section {
-  
-    height: 100vh;
-    padding: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
+.contact-section-container {
+  display: grid;
+  grid-template-columns: 0.2fr 1.5fr 1.6fr 0.2fr;
+  grid-template-rows: 0.2fr 0.8fr 1.5fr 3.3fr 0.2fr;
+  gap: 3em 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    ". contact-title-section-container contact-phone-container ."
+    ". contact-textbox-container contact-phone-container ."
+    ". contact-sticky-container contact-phone-container ."
+    ". . . .";
+}
+
+.contact-title-section-container {
+  grid-area: contact-title-section-container;
+}
+
+.contact-phone-container {
+  grid-area: contact-phone-container;
+}
+
+.contact-textbox-container {
+  grid-area: contact-textbox-container;
+}
+
+.contact-sticky-container {
+  grid-area: contact-sticky-container;
+}
+
+.contact-text-box-container,
+.contact-phone-container,
+.contact-sticker-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media Queries para Responsiveness */
+
+/* Tablets y dispositivos más pequeños */
+@media (max-width: 1024px) {
   .contact-section-container {
-    height: auto;
-    display: grid;
-    grid-template-columns: 0.2fr 1.8fr 1.9fr 0.1fr;
-    grid-template-rows: 0.6fr 1.3fr 2.2fr 0.4fr;
-    gap: 2em 2em;
-    grid-auto-flow: row dense;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
-      "contact-title-section-container contact-title-section-container . ."
-      ". contact-text-box-container contact-phone-container ."
-      ". contact-sticker-container contact-phone-container ."
-      ". . . .";
-  
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-      grid-template-areas:
-        "contact-title-section-container"
-        "contact-phone-container"
-        "contact-sticker-container";
-  
-      .contact-text-box-container {
-        display: none;
-      }
-    }
-  
-    @media (max-width: 600px) {
-      height: auto;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-      grid-template-areas:
-        "contact-title-section-container"
-        "contact-phone-container"
-        "contact-sticker-container";
-  
-      .contact-text-box-container {
-        display: none;
-      }
-      .contact-sticker-container {
-
-margin-top: 2rem;
-      }
-
-     
-    }
+      "contact-title-section-container"
+      "contact-phone-container"
+      "contact-textbox-container"
+      "contact-sticky-container";
+    gap: 1em;
   }
-  
-  .contact-text-box-container,
+
+  .contact-title-section-container,
   .contact-phone-container,
-  .contact-sticker-container {
-    display: flex;
-    align-items: center;
+  .contact-textbox-container,
+  .contact-sticky-container {
     justify-content: center;
+    align-items: center;
   }
-  
-  .contact-title-section-container { grid-area: contact-title-section-container; }
-  
-  .contact-text-box-container { grid-area: contact-text-box-container; }
-  
-  .contact-phone-container { grid-area: contact-phone-container; }
-  
-  .contact-sticker-container { grid-area: contact-sticker-container; }
-  
+}
+
+/* Teléfonos móviles */
+@media (max-width: 768px) {
+  .contact-section-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      "contact-title-section-container"
+      "contact-textbox-container"
+      "contact-phone-container"
+      "contact-sticky-container";
+    gap: 1em;
+    margin-bottom: 150px;
+  }
+
+  .contact-title-section-container,
+  .contact-phone-container,
+  .contact-textbox-container,
+  .contact-sticky-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-textbox-container{
+    display: none;
+  }
+}

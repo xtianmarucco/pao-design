@@ -13,7 +13,7 @@
       "images": [
         { "url": "./project-one-colors.svg" },
         { "url": "./project-one-imagen-three.svg" },
-        { "url": "./project-one-image-one.svg"},
+        { "url": "./project-one-image-one.svg"},                                    
         { "url": "./project-one-imagen-two.svg" }
       ],
       "iconBackgroundColor": "#699BF7"

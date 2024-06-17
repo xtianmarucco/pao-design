@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import SectionTitle from '../section-title/SectionTitle'
 import './carousel.css';
 
 const Carousel = ({ children }) => {
@@ -20,6 +21,19 @@ const Carousel = ({ children }) => {
 
   return (
     <div className="carousel">
+      <div className='title-container-projects'>
+      <SectionTitle
+           id="projects"
+            title="Portfolio"
+            classNameImg="about-me-icon"
+            imgSrc="/about-me-icon.svg"
+            borderWidth={3}
+            borderColor="black"
+            borderRadius="35px"
+            cornerSize="16px"
+            backgroundColor="#9CEB60"
+          />
+      </div>
       <div className="carousel-inner" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         {children.map((child, index) => (
           <div className="carousel-item" key={index}>
@@ -27,10 +41,14 @@ const Carousel = ({ children }) => {
           </div>
         ))}
       </div>
+      <div className="carousel-control-prev">
       <button className="carousel-control prev" onClick={prevSlide}>
       </button>
+      </div>
+      <div className="carousel-control-next">
       <button className="carousel-control next" onClick={nextSlide}>
       </button>
+      </div>
     </div>
   );
 };
