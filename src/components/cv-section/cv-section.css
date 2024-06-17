@@ -32,6 +32,7 @@
 
 .cv-title-section-container {
   grid-area: cv-title-section-container;
+  max-width: 600px;
   width: 100%; /* Ensure full width */
  margin: 1rem;
  position: relative;
@@ -103,6 +104,11 @@
         "cv-image-container"
         "cv-text-box-container"
         "cv-skills-container";
+        padding: 3% 3%;
+  }
+  .cv-title-section-container{
+    left: 0;
+    padding: 1rem;
   }
 
   .cv-envelope-container{

@@ -71,6 +71,7 @@
       "contact-phone-container"
       "contact-sticky-container";
     gap: 1em;
+    margin-bottom: 150px;
   }
 
   .contact-title-section-container,

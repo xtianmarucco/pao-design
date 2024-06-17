@@ -4,12 +4,6 @@
   height: 100vh;
   overflow: hidden;
 }
-.title-container-projects {
-  position: absolute;
-  width: 600px;
-  margin-left: 216px;
-  top: 25px;
-}
 
 .carousel-inner {
   display: flex;
@@ -60,4 +54,49 @@
   right: 45%;
   background-color: transparent;
   filter: drop-shadow(3px 3px 5px #000000);
+}
+
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .carousel-control {
+    position: absolute;
+    top: 63.5%;
+    transform: translateY(-50%);
+    border: none;
+  
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  .prev {
+    margin-top: 1.5rem;
+    background-image: url(/public/carousel-button-left.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 50px;
+    left: -1%;
+    background-color: transparent;
+    filter: drop-shadow(3px 3px 5px #000000);
+  }
+  
+  .next {
+    margin-top: 1.5rem;
+    background-image: url(/public/carousel-button-right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 50px;
+    right: -1%;
+    background-color: transparent;
+    filter: drop-shadow(3px 3px 5px #000000);
+  }
 }

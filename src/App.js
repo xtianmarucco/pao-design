@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-       {/* <img src="./doodle-1.svg" alt="Doodle 1" className="doodle doodle1" />
+       <img src="./doodle-1.svg" alt="Doodle 1" className="doodle doodle1" />
        <img src="./doodle-2.svg" alt="Doodle 2" className="doodle doodle2" />
        <img src="./doodle-3.svg" alt="Doodle 1" className="doodle doodle3" />
        <img src="./doodle-4.svg" alt="Doodle 2" className="doodle doodle4" />
@@ -46,7 +46,7 @@ function App() {
        <img src="./doodle-7.svg" alt="Doodle 2" className="doodle doodle7" />
        <img src="./doodle-8.svg" alt="Doodle 2" className="doodle doodle8" />
        <img src="./doodle-9.svg" alt="Doodle 2" className="doodle doodle9" />
-       <img src="./doodle-10.svg" alt="Doodle 2" className="doodle doodle10" /> */}
+       <img src="./doodle-10.svg" alt="Doodle 2" className="doodle doodle10" />
       <SidebarNavigation activeSection={activeSection} />
       <BackToTop/>
       <section id="home" ref={(el) => sectionsRef.current[0] = el}>

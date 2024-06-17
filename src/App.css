@@ -5,6 +5,8 @@ html {
 .App {
   position: relative;
   min-height: fit-content;
+  overflow: hidden;
+  margin-bottom: 100px;
 }
 
 section {
@@ -130,25 +132,39 @@ h1 {
     display: flex;
     top: 15%;
     left: 75%;
-    transform: scale(1.8);
+    
   }
 
   .doodle4 {
     display: flex;
     height: 150px;
-    top: 37%;
-  }
+    top: 38%;
+    left: -28%;
+    z-index: -1;
+}
 
   .doodle5 {
-    display: flex;
+    display: none;
     top: 40%;
     height: 150px;
   }
   .doodle6 {
     display: flex;
-    top: 55%;
+    top: 56%;
     height: 150px;
-  }
+    left: -38%;
+}
+.doodle8{
+  display: none;
+}
+.doodle9{
+  height: 150px;
+}
+.doodle10{
+  height: 150px;
+  display: none;
+
+}
 }
 
 @media (max-width: 600px) {
@@ -157,17 +173,21 @@ h1 {
   }
 
   .doodle3 {
+    position: absolute;
     display: flex;
     top: 15%;
-    left: 75%;
-    transform: scale(1.8);
-  }
+    right: -5%;
+    height: 45px;
+}
 
-  .doodle4 {
-    display: flex;
-    height: 150px;
-    top: 37%;
-  }
+
+.doodle4 {
+  display: flex;
+  height: 150px;
+  top: 38%;
+  left: -28%;
+  z-index: -1;
+}
 
   .doodle5 {
     display: flex;
@@ -175,11 +195,18 @@ h1 {
     height: 150px;
   }
 
+  .doodle6 {
+    display: flex;
+    top: 56%;
+    height: 150px;
+    left: -38%;
+}
+
   .doodle7 {
     display: flex;
     top: 96%;
     z-index: 3;
     left: -69%;
-    transform: scale(0.2);
-  }
+    height: 100px;
+ }
 }
