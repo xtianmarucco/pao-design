@@ -39,7 +39,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      height: -webkit-fill-available;
+      align-items: center;
+      height: 100vh;
     }
 
     .image-container {
@@ -48,29 +49,31 @@
         display: none;
       }
       .logo-pao-design-mobile {
-        width: 200px;
-        height: auto;
         display: block;
-        margin-bottom: 15%;
+        height: auto;
+        width: 160px;
+        position: relative;
+        bottom: 45%;
       }
       .welcome-title {
-        width: 350px;
+        width: 300px;
         padding: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
       }
       .welcome-tag {
-        max-width: 200px;
+        max-width: 180px;
         filter: drop-shadow(0 2px 2px rgb(10, 10, 10));
+        margin-bottom: 15%;
       }
     }
 
-    .welcome-year-title {
+    /* .welcome-year-title {
       font-size: 30px;
       color: black;
       padding-left: 19px;
       position: absolute;
       top: 10px;
-    }
+    } */
   }
 
   @media (min-width: 600px) and (max-width: 768px) {

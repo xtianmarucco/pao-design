@@ -8,7 +8,7 @@ const TextBox = ({ text, text1, text2 }) => {
         <div className="textbox-content">
           <p>{text}</p>
           <p>{text1}</p>
-          <p>{text2}</p>
+          <p  className="text-box-second-paragraph">{text2}</p>
         </div>
       </div>
     );

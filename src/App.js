@@ -52,19 +52,15 @@ function App() {
       <section id="home" ref={(el) => sectionsRef.current[0] = el}>
         <Home />
       </section>
-      <br></br>
       <section id="about" ref={(el) => sectionsRef.current[1] = el}>
         <AboutMe />
       </section>
-      <br></br>
       <section id="cv" ref={(el) => sectionsRef.current[2] = el}>
         <CvSection />
       </section>
-      <br></br>
       <section id="portfolio" ref={(el) => sectionsRef.current[3] = el}>
         <ProjectsSection/>
       </section>
-      <br></br>
       <section id="contact" ref={(el) => sectionsRef.current[4] = el}>
         <ContactSection />
       </section>
