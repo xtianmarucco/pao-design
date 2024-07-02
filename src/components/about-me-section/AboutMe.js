@@ -28,6 +28,14 @@ const AboutMe = () => {
             src="/about-photo.svg"
             alt="welcome logo"
           />
+           <div className="about-personal-mobile-container">
+           <Image
+            className="about-photo-mobile"
+            src="/about-photo-mobile.svg"
+            alt="profile"
+          />
+           </div>
+          
         </div>
         <div className="about-personal-container">
           <Image className="about-personal" src="/about-personal.png" />

@@ -12,7 +12,11 @@
   }
   @media (max-width: 768px)  {
     .textbox-content {
+      text-align: center;
       font-size: 14px;
       width: 100%; /* Ajusta el ancho al 100% para que sea responsive */
+    }
+    .text-box-second-paragraph {
+      display: none;
     }
   }

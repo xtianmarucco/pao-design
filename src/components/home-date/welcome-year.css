@@ -21,34 +21,35 @@
 
 @media (max-width: 600px) {
   .welcome-year {
-    width: 120px;
-    height: 72px;
+    width: 82px;
+    height: 50px;
     position: relative;
     left: 10%;
-  }
-   .welcome-year-title {
-    font-size: 30px;
+ 
+  .welcome-year-title {
+    font-size: 15px ;
     color: black;
     padding-left: 19px;
     position: absolute;
-    top: 12px;
+    top: 13px;
   }
 }
+}
 
-@media (min-width: 600px) and (max-width: 768px) {
+/* @media (min-width: 600px) and (max-width: 768px) {
   .welcome-year {
-    width: 120px;
-    height: 72px;
+    width: 82px;
+    height: 50px;
     position: relative;
     left: 0;
   }
    .welcome-year-title {
-    font-size: 30px;
+    font-size: 15px;
     color: black;
     padding-left: 19px;
     position: absolute;
     top: 0px;
   }
-}
+} */
 
 

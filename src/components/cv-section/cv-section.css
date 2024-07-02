@@ -108,7 +108,7 @@
   }
   .cv-title-section-container{
     left: 0;
-    padding: 1rem;
+    padding: 0rem;
   }
 
   .cv-envelope-container{
@@ -124,6 +124,7 @@
     align-items: center;
     position: relative;
     top: 0;
+    margin: .5rem;
   }
 
   .cv-balloon-row {
@@ -137,6 +138,12 @@
     height: auto;
     width: auto;
     margin: 1rem;
+  }
+  .cv-ballon-1, .cv-balloon-2, .cv-envelope-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem;
   }
   .cv-text-box-container{
     margin-top: 0rem;
