@@ -30,3 +30,25 @@ a{
   font-size: 16px;
   font-weight: bold;
 }
+@media (max-width: 700px){
+  .icon-button {
+    width: 215px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9747ff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 5%;
+}
+.button-text {
+  font-size: 12px;
+  font-weight: bold;
+ 
+}
+}

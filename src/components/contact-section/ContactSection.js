@@ -24,7 +24,9 @@ const ContactSection = () => {
         </div>
         <div class="contact-phone-container">
       
-        <PhoneContainer></PhoneContainer>
+        <PhoneContainer>
+          hello
+        </PhoneContainer>
         </div>
         <div class="contact-textbox-container">
         <TextBox text={content.contactText} />

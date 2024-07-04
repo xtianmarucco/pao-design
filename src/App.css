@@ -14,6 +14,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 #home {
   margin-top: 0px;
@@ -77,7 +78,7 @@ h1 {
   display: flex;
   height: 400px;
   top: 37%;
-  right: -10%;
+  right: -15%;
 }
 .doodle6 {
   display: flex;
@@ -95,31 +96,38 @@ h1 {
 .doodle8 {
   top: 53%;
   height: 400px;
-  right: -10%;
+  right: -15%;
 }
 .doodle9 {
   top: 75%;
   height: 400px;
-  left: -10%;
+  left: -15%;
 }
 .doodle10 {
   top: 75%;
   height: 400px;
-  right: -10%;
+  right: -15%;
 }
 
 @media (max-width: 768px) {
   section {
-    height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
   }
 
   .doodle1 {
     display: flex;
-    height: 100px;
+    height: 80px;
     left: -10px;
+    top: 5%;
   }
 
   .doodle2 {
@@ -129,9 +137,11 @@ h1 {
   }
 
   .doodle3 {
+    position: absolute;
     display: flex;
-    top: 15%;
-    left: 75%;
+    top: 12%;
+    right: -5%;
+    height: 40px;
   }
 
   .doodle4 {
@@ -165,19 +175,19 @@ h1 {
   }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .doodle1 {
     display: flex;
     height: 100px;
     left: -54px;
-    top: 7%;
+    top: 5.5%
   }
 
   .doodle3 {
     position: absolute;
     display: flex;
     top: 15%;
-    right: -5%;
+    right:-3%;
     height: 45px;
   }
 
@@ -208,5 +218,5 @@ h1 {
     z-index: 3;
     left: -69%;
     height: 100px;
-  }
-}
+  } */
+

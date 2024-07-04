@@ -1,7 +1,7 @@
 .project-container {
   display: grid;
-  grid-template-columns: 0.2fr 1.8fr 1.8fr 0.2fr;
-  grid-template-rows: 0.5fr 1.5fr 1.3fr 0fr;
+  grid-template-columns: 0.1fr auto auto 0.1fr;
+  grid-template-rows: 0.1fr auto auto 0.1fr;
   gap: 1rem;
   grid-auto-flow: row;
   grid-template-areas:
@@ -20,7 +20,7 @@
 }
 
 .top-section-projects {
-  max-height: 200px;
+ max-height: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,7 +28,7 @@
 }
 
 .bottom-section-projects {
-  max-height: 300px;
+  max-height:300px ;
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -78,8 +78,18 @@
   flex-direction: row;
   align-items: baseline;
   justify-content: space-around;
+  max-height:400px ;
+ 
+ 
 }
-.project-image,
+
+.image-container img {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
 .project-icon {
   width: 100%;
   max-width: 200px;

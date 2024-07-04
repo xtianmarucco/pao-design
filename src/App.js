@@ -37,7 +37,6 @@ function App() {
 
   return (
     <div className="App">
-       <img src="./doodle-1.svg" alt="Doodle 1" className="doodle doodle1" />
        <img src="./doodle-2.svg" alt="Doodle 2" className="doodle doodle2" />
        <img src="./doodle-3.svg" alt="Doodle 1" className="doodle doodle3" />
        <img src="./doodle-4.svg" alt="Doodle 2" className="doodle doodle4" />
