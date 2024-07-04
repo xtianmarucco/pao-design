@@ -52,7 +52,7 @@ h1 {
   height: auto;
   position: relative;
   height: fit-content;
-  top: -13rem;
+  top: -10rem;
 }
 
 .about-personal-container {
@@ -115,6 +115,7 @@ h1 {
 /* Teléfonos móviles */
 @media (max-width: 768px) {
   .about-me-container {
+    height: auto;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
     gap: 0rem;
@@ -139,6 +140,7 @@ h1 {
     }
 
     .about-photo-mobile{
+      margin-top: 1rem;
       display: block;
     }
   }
@@ -149,11 +151,13 @@ h1 {
   }
 
   .text-box-container {
+    margin-top: 1rem;
     left: 0;
     max-width: 100%;
   }
 
   .about-personal-mobile-container {
+    margin-top: 1rem;
     display: block;
   }
 }

@@ -1,30 +1,36 @@
-import React from 'react';
-import './mobile-phone.css'; 
-import PhoneButton from '../phone-button/PhoneButton';
-import PhoneLinkButton from '../phone-link-buttons/PhoneLinkButton';
+import React from "react";
+import "./mobile-phone.css";
+import PhoneHeaderPao from "../phone-header-pao/PhoneHeaderPao";
 
-const MobilePhone = ({ screenContent }) => {
+import PhoneButton from "../phone-button/PhoneButton";
+import PhoneLinkButton from "../phone-link-buttons/PhoneLinkButton";
+
+const MobilePhone = () => {
   return (
     <div className="mobile-phone">
       <div className="screen">
-        <br></br>
-        <PhoneLinkButton iconSrc='/envelope-icon.svg' text='Scan me' />
-        <br></br>
-        <PhoneLinkButton iconSrc='/scan-fill-icon.svg' text='Scan me' />
-        <br></br>
-        <PhoneLinkButton iconSrc='/scan-fill-icon.svg' text='Scan me' />
-        <br></br>
-        <PhoneLinkButton iconSrc='/whatsapp-icon.svg' text='Scan me' />
-        <br></br>
-        <PhoneLinkButton iconSrc='/location-icon.svg' text='Scan me' />
-      </div>
-      <div className="bottom-bar">
-        <PhoneButton iconSrc='/download-icon-btn.svg' buttonText='Download'
-         filePath="./jquery-cheatsheet.pdf"
-         fileName="jquery-cheatsheet"
+        <PhoneHeaderPao />
+        <PhoneLinkButton iconSrc="./whatsapp-icon.svg" text="+61416722863" />
+        <PhoneLinkButton
+          iconSrc="./envelope-icon.svg"
+          text="paola.design@gmail.com"
         />
-        <br></br>
-        <PhoneButton iconSrc='/icon-phone-fill.svg' buttonText='Calling'/>
+        <PhoneLinkButton
+          iconSrc="./linkedin-icon.svg"
+          text="/pao-design"
+        />
+          <PhoneLinkButton
+          iconSrc="./github-icon.svg"
+          text="/pao-design"
+        />
+          <PhoneLinkButton
+          iconSrc="./location-icon.svg"
+          text="Sidney, Australia"
+        />
+      </div>
+      <div className="phone-buttons-container">
+      <PhoneButton iconSrc='./cv-download-icon.svg' buttonText="Download CV" />
+      <PhoneButton iconSrc='./phone-icon-mobile.svg' buttonText="Calling" />
       </div>
     </div>
   );

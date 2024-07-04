@@ -32,7 +32,6 @@
 .contact-phone-container,
 .contact-sticker-container {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -60,8 +59,13 @@
   }
 }
 
-/* Teléfonos móviles */
+/* mobile */
 @media (max-width: 768px) {
+
+  #contact-section{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .contact-section-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
@@ -75,14 +79,17 @@
   }
 
   .contact-title-section-container,
-  .contact-phone-container,
   .contact-textbox-container,
   .contact-sticky-container {
     justify-content: center;
     align-items: center;
   }
+  .contact-phone-container {
+    padding: 2%;
+    margin-bottom: 0rem;
+  }
 
-  .contact-textbox-container{
+  .contact-textbox-container {
     display: none;
   }
 }

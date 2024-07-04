@@ -1,10 +1,10 @@
-.phone-link-button {
+.header-pao {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: left;
   background-color: #fff;
-  max-height: 54px;
+  max-height: 90px;
   max-width: 269px;
   width: 90%;
   border: 1px solid black;
@@ -12,44 +12,34 @@
   border-radius: 20px 20px 20px 20px;
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
   margin: 10px;
-
   &:hover {
     transform: translateY(-2px);
     box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.2);
     cursor: pointer;
   }
-
-  &:active {
-    transform: translateY(1px);
-    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2);
-  }
-
-  .button-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-  }
-
-  .button-text {
-    font-size: 16px;
-    font-weight: bold;
-    color: black;
-  }
 }
 
-@media (max-width: 700px){
-  .phone-link-button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    background-color: #fff;
-    max-height: 54px;
+.phone-header-img {
+  height: 70px;
+  width: auto;
+}
+.header-text-container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 700px) {
+  .header-pao {
     max-width: 200px;
     width: 100%;
     border: 1px solid black;
     padding-left: 20px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
-    margin: 10px auto 10px auto;}
+    margin: 10px auto 10px auto;
+  }
+  .phone-header-img {
+    height: 40px;
+    width: auto;
+  }
 }
