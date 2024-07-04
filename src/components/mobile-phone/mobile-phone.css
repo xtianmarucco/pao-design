@@ -10,24 +10,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .screen {
   width: 90%;
   max-height: 600px;
-  background-color:#F4F4F4;
+  background-color: #f4f4f4;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 25px;
   padding-top: 20px;
-
 }
 
 .phone-buttons-container {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: -webkit-fill-available;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: -webkit-fill-available;
+  margin-top: -10px;
 }
