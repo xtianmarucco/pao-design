@@ -10,27 +10,37 @@ const MobilePhone = () => {
     <div className="mobile-phone">
       <div className="screen">
         <PhoneHeaderPao />
-        <PhoneLinkButton iconSrc="./whatsapp-icon.svg" text="+61416722863" />
+        <PhoneLinkButton iconSrc="./whatsapp-icon.svg" text="+61416722863" 
+        linkUrl="https://wa.me/61416722863"
+        />
         <PhoneLinkButton
           iconSrc="./envelope-icon.svg"
           text="paola.design@gmail.com"
+          linkUrl="mailto:paolamedina.designer@gmail.com"
         />
         <PhoneLinkButton
           iconSrc="./linkedin-icon.svg"
           text="/pao-design"
+          linkUrl="https://www.linkedin.com/in/pao-design/"
         />
-          <PhoneLinkButton
+        <PhoneLinkButton
           iconSrc="./github-icon.svg"
           text="/pao-design"
+          linkUrl="https://github.com/paodesign"
         />
-          <PhoneLinkButton
+        <PhoneLinkButton
           iconSrc="./location-icon.svg"
           text="Sidney, Australia"
         />
+         <div className="phone-buttons-container">
+        <PhoneButton
+        className="first-button"
+        filePath="./pao-cv.pdf"
+        fileName="pao-cv.pdf"
+        iconSrc="./cv-download-icon.svg"
+        />
+        <PhoneButton iconSrc="./phone-icon-mobile.svg"/>
       </div>
-      <div className="phone-buttons-container">
-      <PhoneButton iconSrc='./cv-download-icon.svg' buttonText="Download CV" />
-      <PhoneButton iconSrc='./phone-icon-mobile.svg' buttonText="Calling" />
       </div>
     </div>
   );

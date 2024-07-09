@@ -59,14 +59,7 @@
       border: 3px solid black;
       position: absolute;
   }
-  .phone-buttons-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: -webkit-fill-available;
-    margin-bottom: 10px;
-}
+  
   }
 
 

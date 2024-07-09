@@ -94,7 +94,7 @@
   width: 100%;
   max-width: 200px;
   height: 150px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media (max-width: 760px) {
@@ -111,9 +111,7 @@
       ". . . .";
   }
   .title-container-projects {
-     
-      position: relative;
-      width: 90%;
+      width: 100%;
       top: 10px;
       margin-left: auto;
       margin-right: auto;
@@ -170,4 +168,13 @@
     gap: 10px;
     align-items: center;
   }
+}
+
+@media (max-width: 400px) {
+  .carousel-item {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }

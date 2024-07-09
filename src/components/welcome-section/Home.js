@@ -14,7 +14,7 @@ const Home = () => {
             <img src="./doodle-1.svg" alt="Doodle 1" className="doodle doodle1" />
 
             <Image id="welcome-title"  className="welcome-title" src="/welcome-title.svg"  alt="welcome title"/>
-            <Image className="welcome-tag" src="/welcome-tag.svg"  alt="welcome tag"/>
+            <Image className="welcome-tag" src="/welcome-tag-1.svg"  alt="welcome tag"/>
             </div>
             <WelcomeYear/>
         </div>

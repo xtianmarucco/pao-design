@@ -37,6 +37,7 @@ const Carousel = ({ children }) => {
       <div className="carousel-inner" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         {children.map((child, index) => (
           <div className="carousel-item" key={index}>
+            
             {child}
           </div>
         ))}

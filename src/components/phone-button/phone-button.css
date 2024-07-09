@@ -2,28 +2,27 @@ a{
   text-decoration: none;
 }
 .icon-button {
-  width: 200px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #9747ff;
+  background-color: #34C759;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
-.icon-button:hover {
-  background-color: #7a3ac9;
+.icon-button.first-button {
+  background-color: #5C86F4 !important;
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  width: 40px;
+  height: 30px;
+  margin-right: 0px;
 }
 
 .button-text {
@@ -32,23 +31,26 @@ a{
 }
 @media (max-width: 700px){
   .icon-button {
-    width: 215px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #9747ff;
+    background-color: #34C759;
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 50px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-bottom: 5%;
+  
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+  }
+  
 }
-.button-text {
-  font-size: 12px;
-  font-weight: bold;
- 
-}
-}
+
