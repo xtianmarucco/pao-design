@@ -163,3 +163,57 @@
 
   }
 }
+@media (max-width: 440px){
+  .carousel-control {
+    position: absolute;
+    top: 61%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;}
+}
+
+@media (max-width: 414px){
+  .carousel-control {
+    position: absolute;
+    top: 62%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;}
+}
+
+@media (max-width: 390px){
+  .carousel-control {
+    position: absolute;
+    top: 63%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+  
+}
+
+@media (max-width: 360px){
+  .carousel-control {
+    position: absolute;
+    top: 64%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+  
+}
+@media (max-width: 375px){
+  .carousel-control {
+    position: absolute;
+    top: 63%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+  
+}
