@@ -4,7 +4,7 @@ import './phone-links-button.css';
 
 const PhoneLinkButton = ({ iconSrc, text, linkUrl, filePath, fileName  }) => {
   return (
-    <a href={filePath} download={fileName} target="_blank" rel="noopener noreferrer" className="phone-link-button">
+    <a href={linkUrl} download={fileName} target="_blank" rel="noopener noreferrer" className="phone-link-button">
       <img src={iconSrc} alt="icon" className="button-icon" />
       <p className="comic-button__text">{text}</p>
     </a>

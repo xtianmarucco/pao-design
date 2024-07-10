@@ -37,8 +37,8 @@
 
 @media (max-width: 768px) {
   .back-to-top {
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
     padding: 11px 10px;
     position: fixed;
     left: 44%;
@@ -49,5 +49,19 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
+}
+.back-to-top-button {
+  background-image: url(/public/back-to-top-responsive.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  transition: opacity 0.3s ease;
+  height: 60px;
+  width: 60px;
+  border: unset;
+  top: -3px;
+  right: 3px;
+  position: relative;
 }
 }

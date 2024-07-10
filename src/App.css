@@ -138,7 +138,7 @@ h1 {
 
   .doodle3 {
     position: absolute;
-    display: flex;
+    display: none;
     top: 12%;
     right: -5%;
     height: 40px;
@@ -179,7 +179,15 @@ h1 {
     display: none;
   }
 }
+@media (max-width: 400px){
+.doodle1{
+  display: flex;
+  height: 80px;
+  left: -10px;
+  top: 5%;
+}
 
+} 
 /* @media (max-width: 600px) {
   .doodle1 {
     display: flex;

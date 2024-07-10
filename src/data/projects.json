@@ -1,7 +1,7 @@
 [
     {
       "title": "Art Galery",
-      "buttonColor": "#4CAF50",
+      "buttonColor": "#699BF7",
       "description": "I worked as a web designer alongside a graphic designer. We focused on developing the interface and interactions for a software company using HTML, CSS, and JavaScript.",
      "icons":  [  
         { "url": "./html-icon.svg"},
@@ -13,14 +13,14 @@
       "images": [
         { "url": "./project-one-colors.svg" },
         { "url": "./project-one-imagen-three.svg" },
-        { "url": "./project-one-image-one.svg"},                                    
-        { "url": "./project-one-imagen-two.svg" }
+        { "url": "./p1-img2.svg"},                                    
+        { "url": "./p1-img3.svg" }
       ],
       "iconBackgroundColor": "#699BF7"
     },
     {
       "title": "Code It",
-      "buttonColor": "#FF5722",
+      "buttonColor": "#FF8577",
       "description": "I worked as a web designer alongside a graphic designer. We focused on developing the interface and interactions for a software company using HTML, CSS, and JavaScript.",
       "icons": [
         { "url": "./html-icon.svg" },
@@ -30,12 +30,12 @@
         
       ],
       "images": [
-        { "url": "./project-one-colors.svg" },
-        { "url": "./project-one-imagen-three.svg"},
-        { "url": "./project-one-image-one.svg"},
-        { "url": "./project-one-imagen-two.svg"  }
+        { "url": "./p-two-colors.svg" },
+        { "url": "./project-two-image-three.svg" },
+        { "url": "./p2-img2.svg"},                                    
+        { "url": "./p2-img3.svg" }
       ],
-      "iconBackgroundColor": "#eee"
+      "iconBackgroundColor": "#FF8577"
     },
     {
       "title": "New Messenger",
@@ -48,17 +48,17 @@
         { "url": "./js-icon.svg" }
       ],
       "images": [
-        { "url": "./project-one-colors.svg" },
-        { "url": "./project-one-imagen-three.svg"},
-        { "url": "./project-one-image-one.svg"},
-        { "url": "./project-one-imagen-two.svg"}
+        { "url": "./project-three-colors.svg" },
+        { "url": "./project-three-image-three.svg"},
+        { "url": "./p3-img2.svg"},                                    
+        { "url": "./p3-img3.svg" }
       ],
-      "iconBackgroundColor": "#eee"
+      "iconBackgroundColor": "#0FA958 "
       
     },
     {
       "title": "E-Commerce Fashion",
-      "buttonColor": "#FF5722",
+      "buttonColor": "#FF3838",
       "description": "I played a critical role in crafting the framework for a fashion e-commerce platform, focusing on UX. My emphasis was on designing an intuitive and visually appealing navigation flow that guided users.",
       "icons": [
         { "url": "./html-icon.svg", "backgroundColor": "#FF3838" },
@@ -67,12 +67,12 @@
         { "url": "./js-icon.svg", "backgroundColor": "#FF3838" }
       ],
       "images": [
-        { "url": "./project-one-colors.svg", "backgroundColor": "#ddd" },
-        { "url": "./project-one-imagen-three.svg", "backgroundColor": "#ccc" },
-        { "url": "./project-one-image-one.svg"},
-        { "url": "./project-one-imagen-two.svg", "backgroundColor": "#ddd" }
+        { "url": "./project-four-colors.svg"  },
+        { "url": "./project-four-imagen-three.svg" },
+        { "url": "./p4-im2.svg"},                                    
+        { "url": "./p4-img3.svg" }
       ],
-      "iconBackgroundColor": "#FF5722"
+      "iconBackgroundColor": "#FF3838"
     },
     {
       "title": "Django Blog ",
@@ -85,10 +85,10 @@
         { "url": "./js-icon.svg", "backgroundColor": "#868686" }
       ],
       "images": [
-        { "url": "./project-one-colors.svg" },
-        { "url": "./project-one-imagen-three.svg"},
-        { "url": "./project-one-image-one.svg"},
-        { "url": "./project-one-imagen-two.svg" }
+        { "url": "./project-five-colors.svg" },
+        { "url": "./p5-img1.svg"},
+        { "url": "./p5-img2.svg"},                                    
+        { "url": "./p5-img3.svg" }
       ],
       "iconBackgroundColor": "#868686"
       
