@@ -10,6 +10,7 @@ import ProjectsSection from "./components/projects-section/ProjectsSection";
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
+  useEffect(()=> {document.title="Pao Designs"})
   const sectionsRef = useRef([]);
 
   useEffect(() => {

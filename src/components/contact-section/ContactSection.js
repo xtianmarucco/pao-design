@@ -12,7 +12,7 @@ const ContactSection = () => {
     <div id="contact-section">
       <div class="contact-section-container">
         <div class="contact-title-section-container">
-        <SectionTitle
+          <SectionTitle
             title="Contact"
             imgSrc="/contact-icon.svg"
             borderWidth={3}
@@ -23,19 +23,17 @@ const ContactSection = () => {
           />
         </div>
         <div class="contact-phone-container">
-      
-        <PhoneContainer>
-          hello
-        </PhoneContainer>
+          <PhoneContainer>hello</PhoneContainer>
         </div>
         <div class="contact-textbox-container">
-        <TextBox text={content.contactText} />
+          <TextBox text={content.contactText} />
         </div>
         <div class="contact-sticky-container">
-        <ContactStickyNote
+          <ContactStickyNote
             imageSrc="/pin-contact.svg"
             classNameNamePin="pin-img"
             text={content.stickyNoteText}
+            footerText="XOX Pao"
           />
         </div>
       </div>

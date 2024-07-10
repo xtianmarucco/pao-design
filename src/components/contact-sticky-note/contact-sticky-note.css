@@ -1,51 +1,53 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Handlee&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
 
 .contact-sticky-note {
-    background-color: #FFF69B;
-    padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 0;
-    width: fit-content;
-  }
-  
-  .image-container {
-    text-align: right;
-   
-  }
+  background-color: #fff69b;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  width: fit-content;
+}
 
-  #pin-sticker {
-    width: 50px;
-    height: auto;
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .text-container {
-    margin-bottom: 10px;
-    font-size: 24px;
-    font-family: h;
-    font-style: italic;
-    font-family: "Handlee", cursive;
-    color: #0F43F8;
+.image-container {
+  text-align: right;
+}
 
-    @media (max-width: 600px) {
-      font-size: 16px;
-    
-    }
-  }
-  
-  .footer-container {
-    font-size: 14px;
-    font-family: h;
-    font-style: italic;
-    font-family: "Handlee", cursive;
+#pin-sticker {
+  width: 50px;
+  height: auto;
+}
 
-  }
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
 
- 
-  
+.text-container {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: h;
+  font-style: italic;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #0f43f8;
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.footer-container {
+  font-size: 14px;
+  font-family: h;
+  font-style: italic;
+  font-family: "Handlee", cursive;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 6%;
+  color: #0f43f8;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
