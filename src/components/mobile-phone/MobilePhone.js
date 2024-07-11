@@ -4,11 +4,14 @@ import PhoneHeaderPao from "../phone-header-pao/PhoneHeaderPao";
 
 import PhoneButton from "../phone-button/PhoneButton";
 import PhoneLinkButton from "../phone-link-buttons/PhoneLinkButton";
+import Image from "../image/Image";
 
 const MobilePhone = () => {
   return (
     <div className="mobile-phone">
       <div className="screen">
+        <Image src="./status-bar.svg" className="statusbar"/>
+
         <PhoneHeaderPao />
         <PhoneLinkButton iconSrc="./whatsapp-icon.svg" text="+61416722863" 
         linkUrl="https://wa.me/61416722863"
@@ -38,6 +41,7 @@ const MobilePhone = () => {
         filePath="./pao-cv.pdf"
         fileName="pao-cv.pdf"
         iconSrc="./cv-download-icon.svg"
+         buttonText=""
         />
         <PhoneButton iconSrc="./phone-icon-mobile.svg"/>
       </div>
