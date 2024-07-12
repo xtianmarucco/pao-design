@@ -41,9 +41,11 @@ const MobilePhone = () => {
         filePath="./pao-cv.pdf"
         fileName="pao-cv.pdf"
         iconSrc="./cv-download-icon.svg"
-         buttonText=""
+        
         />
-        <PhoneButton iconSrc="./phone-icon-mobile.svg"/>
+        <PhoneButton iconSrc="./phone-icon-mobile.svg"
+        phoneNumber="+61416722863"
+        />
       </div>
       </div>
     </div>

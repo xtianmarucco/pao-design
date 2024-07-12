@@ -30,9 +30,6 @@ const CvSection = () => {
               fileName="pao-cv.pdf"
             />
           </div>
-          <div className="cv-balloon-2">
-            <ComicButton iconSrc="./scan-fill-icon.svg" text="Scan me" />
-          </div>
         </div>
         <div className="cv-envelope-container">
           <Image className="download-qr" src="./qr-cv.svg" />
