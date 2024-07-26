@@ -2,9 +2,9 @@ import React from 'react';
 import './phone-button.css';
 
 
-const PhoneButton = ({ iconSrc, buttonText, phoneNumber, className  }) => {
+const PhoneButtonDownload = ({ iconSrc, buttonText, phoneNumber, className, filePath, fileName  }) => {
   return (
-    <a href={`tel:${phoneNumber}` }>
+    <a href={filePath} download={fileName}>
       <button className={`icon-button ${className}`}>
         <img src={iconSrc} alt="icon" className="icon" />
         <span className="button-text">{buttonText}</span>
@@ -13,4 +13,4 @@ const PhoneButton = ({ iconSrc, buttonText, phoneNumber, className  }) => {
   );
 };
 
-export default PhoneButton;
+export default PhoneButtonDownload;
