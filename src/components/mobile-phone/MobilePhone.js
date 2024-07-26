@@ -5,6 +5,7 @@ import PhoneHeaderPao from "../phone-header-pao/PhoneHeaderPao";
 import PhoneButton from "../phone-button/PhoneButton";
 import PhoneLinkButton from "../phone-link-buttons/PhoneLinkButton";
 import Image from "../image/Image";
+import PhoneButtonDownload from "../phone-button/PhoneButtonDownload";
 
 const MobilePhone = () => {
   return (
@@ -36,12 +37,11 @@ const MobilePhone = () => {
           text="Sidney, Australia"
         />
          <div className="phone-buttons-container">
-        <PhoneButton
+        <PhoneButtonDownload
         className="first-button"
         filePath="./pao-cv.pdf"
-        fileName="pao-cv.pdf"
-        iconSrc="./cv-download-icon.svg"
-        
+        fileName="./pao-cv.pdf"
+        iconSrc="./cv-download-icon.svg"        
         />
         <PhoneButton iconSrc="./phone-icon-mobile.svg"
         phoneNumber="+61416722863"
